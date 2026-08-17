@@ -1,17 +1,17 @@
-ï»¿# TEST_METHOD.md â€” Written Before Any Run
-**Comp #11 Â· The Cartographer Â· Safe Harbor GHL Map**
+# TEST_METHOD.md — Written Before Any Run
+**Comp #11 · The Cartographer · Safe Harbor GHL Map**
 **Method locked:** Aug 18, 2026
 **Rule:** This file does not change after the first run begins. Results get logged; the method stays frozen. Errors and stumbles stay in every transcript verbatim.
 
 ---
 
 ## Why this file exists
-Comp #10 feedback, verbatim: "The three strongest claims â€” it refuses, it declines, it cannot prescribe â€” are designed, not shown." This comp, every claim gets tape. Method written first so the receipts cannot be shaped afterward (Comp #9 winning standard).
+Comp #10 feedback, verbatim: "The three strongest claims — it refuses, it declines, it cannot prescribe — are designed, not shown." This comp, every claim gets tape. Method written first so the receipts cannot be shaped afterward (Comp #9 winning standard).
 
 ---
 
-## TEST A â€” Sadie (insider accuracy check)
-**Who:** Sadie, the VA currently inside the account. NOT a stranger test â€” an accuracy test.
+## TEST A — Sadie (insider accuracy check)
+**Who:** Sadie, the VA currently inside the account. NOT a stranger test — an accuracy test.
 **What she receives:** The full card set + catalog + collision table.
 **Her job:**
 1. Mark every card line TRUE / FALSE / OUTDATED against the live account
@@ -23,15 +23,15 @@ Comp #10 feedback, verbatim: "The three strongest claims â€” it refuses, it decl
 **Logged:** Every correction with date + what the map said + what reality says. Corrections log ships in the repo (outside the drop-in folder).
 **Pass:** Map corrected to match reality. A wrong map corrected on tape is a receipt; a wrong map shipped is a failure.
 
-## TEST B â€” Friend (true stranger, cold wander)
-**Who:** A friend who has NEVER been inside Safe Harbor's GHL.
+## TEST B — Friend (true stranger, cold wander)
+**Who:** Nicole Myrick, who has NEVER been inside Safe Harbor's GHL.
 **What they receive:** ONLY the cartographer folder + this task, verbatim:
 "Adam asked you to change the timing on the Fit Call nurture texts. Using only this folder: (1) find where to start, (2) tell me what object you'd be touching, (3) tell me what else moves if you change it, and (4) tell me the one thing you might grab by mistake. Then stop."
 **Rules:** No help from Adam. No GHL login needed. Every question they ask out loud gets written down. Transcript verbatim, stumbles left in.
 **Pass (all four, from the brief's bar):** finds the front door from the catalog; opens ONE card and understands the object; names Hits + the obvious wrong neighbor; stops without loading the rest.
 **Fail is publishable:** If they get lost, the transcript ships anyway and the fix gets logged.
 
-## TEST C â€” Fresh Claude session (model as reader)
+## TEST C — Fresh Claude session (model as reader)
 **Who:** A brand-new Claude project/session with zero memory of Safe Harbor.
 **What it receives:** The drop-in folder per the README's own instructions (catalog first, one card - if the README makes the model load everything, the README fails).
 **Task:** Same verbatim task as Test B.
