@@ -1,6 +1,6 @@
 # TEST_METHOD.md — Written Before Any Run
 **Comp #11 · The Cartographer · Safe Harbor GHL Map**
-**Method locked:** Aug 18, 2026
+**Method locked:** August 17, 2026
 **Rule:** This file does not change after the first run begins. Results get logged; the method stays frozen. Errors and stumbles stay in every transcript verbatim.
 
 ---
