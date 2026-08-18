@@ -1,2 +1,7 @@
 # Local Claude Code session directory
 .claude/
+
+# Auto-generated stub - must never sit inside the drop-in folder
+# (a reader would load it as instructions and contaminate Test B / Test C)
+map/CLAUDE.md
+map/**/CLAUDE.md
