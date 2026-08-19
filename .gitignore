@@ -5,3 +5,6 @@
 # (a reader would load it as instructions and contaminate Test B / Test C)
 map/CLAUDE.md
 map/**/CLAUDE.md
+
+# Working notes - process scaffolding, not part of the submission
+tasks/
