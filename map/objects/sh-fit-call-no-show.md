@@ -25,7 +25,7 @@ Nothing below is a claim about what moves. Each line is the question that has to
 - `VERIFY — what fires this workflow, and what marks a contact as a no-show in the first place · settles by: the trigger step at the top of the workflow`
 - `VERIFY — whether the no-show is set by hand or by the calendar · settles by: the trigger step in the account`
 - `VERIFY — which tag it applies or removes · settles by: the workflow in the account`
-- `VERIFY — whether it offers a way back to booking, and which link that is · settles by: the steps in the workflow (see VERIFY-1 in catalog.md, Lane F — two spellings of the booking slug are in circulation)`
+- `VERIFY — whether it offers a way back to booking, and which link that is · settles by: the steps in the workflow (see VERIFY-1 in catalog.md, Lane G — two spellings of the booking slug are in circulation)`
 - `VERIFY — whether a contact who no-shows re-enters SH - Fit Call Nurture (Alt Days) · settles by: both workflows in the account`
 
 The second line matters more than it looks. A no-show set by hand and a no-show set by the calendar are reached by different people doing different things, and only one of them is inside this workflow.
