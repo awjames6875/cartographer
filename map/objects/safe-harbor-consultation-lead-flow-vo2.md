@@ -1,7 +1,7 @@
 # Safe Harbor Consultation Lead Flow Vo2
 
-**Type:**   workflow
-**Mark:**   VERIFY — not confirmed · settles by: the workflow list in the account · **Checked:** not yet (drawn August 18, 2026)
+**Type:**   workflow · settled: Sadie, August 19, 2026
+**Mark:**   VERIFY — not confirmed · settles by: the published state in the workflow list · **Checked:** August 19, 2026
 **Where:**  Automation → Workflows → "Safe Harbor Consultation Lead Flow Vo2"
 **Source:** the workflow of that name, opened from the account. Cited, not copied — open the real thing and read it there (`rules.md` §4).
 
@@ -9,32 +9,46 @@ Came here from Lane A of `catalog.md`. Read this card, then open the account. Do
 
 ---
 
-**The mark is not yet earned**
+**The mark is one leg short**
 
-- **LIVE** would need: found in the workflow list · showing as published · at least one way in that can still fire.
-- **LEFTOVER** would need: found in the list, and no way in survives.
+`rules.md` §1 wants three things for LIVE. Sadie's walk gave two:
 
-Nobody has opened the list. Until somebody does, this card makes no claim either way.
+- **found in the account** — settled: Sadie, August 19, 2026
+- **a way in that can fire** — settled: Sadie, August 19, 2026 (the form trigger below)
+- **published** — *not confirmed.* She read the trigger and the steps, which a draft also shows. She was not asked the published state of this one, and she did not volunteer it.
+
+So the mark stays open on that single leg. Reading a workflow's steps is not the same as finding it switched on.
 
 ---
 
 **Hits**
 
-Nothing below is a claim about what moves. Each line is the question that has to be answered, standing where its answer will go.
+- Fires on a submission of either of the two Safe Harbor website lead forms — form IDs `tP6U9TbhZI7RcUEAeDm1` and `QiHZ9AqGPrLJR596VHON` · settled: Sadie, August 19, 2026
+- Adds the tags `Website Lead` and `60-Day Funnel` to the contact on entry · settled: Sadie, August 19, 2026
+- Notifies the team twice about the new lead — once by SMS, once by email · settled: Sadie, August 19, 2026
+- Adds the tag `Voice AI Called` · settled: Sadie, August 19, 2026
+- **Starts Maria.** On the branch where the contact has a phone number, a VAPI "Create a Call" action places the outbound call · settled: Sadie, August 19, 2026. This is the object that starts her — see `objects/maria.md`, which maps her footprint and stops at the VAPI line.
+- Writes Maria's call summary and transcript into an internal email, as merge fields · settled: Sadie, August 19, 2026
+- Sends the contact the Fit Call booking link, slug `safe-harbor-fit-call` · settled: Sadie, August 19, 2026 (VERIFY-1, settled — see `objects/safe-harbor-fit-call.md`)
+- **Reads the tag `Appointment Booked`** to decide whether to send a booking reminder · settled: Sadie, August 19, 2026 (VERIFY-2, settled)
+- Adds the tag `Missing Phone Number` on the branch where no phone number is present, and emails named users · settled: Sadie, August 19, 2026
 
-- `VERIFY — what fires this workflow · settles by: the trigger step at the top of the workflow`
-- `VERIFY — which tag, if any, this applies to a contact on entry · settles by: the workflow in the account`
-- `VERIFY-2 — which tag its If/Else reads: Fit Call Booked, or the legacy Appointment Booked · settles by: the If/Else step in the account`
-- `VERIFY — what this hands off to, and whether SH - Fit Call Nurture (Alt Days) sits downstream of it · settles by: the workflow in the account`
+**VERIFY-2 settled, and it opened a longer question.** This workflow *reads* `Appointment Booked`. Every tag-writing object walked on this map writes a different one — `fit call booked`, `fit call nurture`, `fit call no show`, `fit call attended`. Nothing walked so far writes `Appointment Booked`.
 
-A Hits line names a consequence the reader can go and look at (`rules.md` §3). None can be named from what has been seen, so each carries a VERIFY rather than a guess.
+`VERIFY — what writes the tag Appointment Booked, if anything does · settles by: the account`
 
-**VERIFY-2 is the one to settle first.** Three other cards on this map reference the same pair of tags, and the answer here is the answer there.
+That line is an observation about the walked set, not a verdict about this workflow. Six objects have been read; the account holds more. The map records what each object reads and writes and stops there (`rules.md` §6).
+
+Asked separately whether anything still used the older tag, the walk answered **"NO"** — while the same walk recorded this workflow reading it. Both answers are on the record in `/receipts/`. The map does not reconcile them.
+
+**Tag capitalisation is not settled.** `Appointment Booked` was reported with capitals; the tags the other workflows write were reported in lower case. Whether the account treats those as one tag or two is not something this walk answers. `VERIFY — whether tag names here are case-sensitive · settles by: Settings → Tags`
 
 ---
 
 **Does not hit**
 
-- **An earlier version of this same flow, if one is still in the list.** The name ends in **Vo2**, which implies something came before it. Whether that predecessor is still sitting in the workflow list is open — `VERIFY — is there an earlier Safe Harbor Consultation Lead Flow in the list · settles by: the workflow list in the account`. If it is there, both answer to the same words in a search box, and an older copy looks exactly as correct as a current one at a glance.
+- **SH - Fit Call Nurture (Alt Days) — settled, and the answer is no.** This card previously asked whether the nurture sat downstream of this workflow. It does not. The nurture starts when the tag `fit call nurture` is added to a contact, and this workflow never adds that tag · settled: Sadie, August 19, 2026. Somebody sent here to change "the first messages a new lead gets" is in the right place; somebody sent here to change the nurture texts is not, and Lane B is where they belong.
 
-- **No other name walked so far is close to this one.** The three `SH - Fit Call` workflows share no words with it. That is worth knowing and worth distrusting in equal measure: only four workflows have been walked, and a nearer neighbour may be sitting in the unwalked part of the account. See **What has not been walked** in `catalog.md`.
+- **An earlier version of this same flow, if one is still in the list.** Still open. The name ends in **Vo2**, which implies something came before it, and Sadie was not asked whether a predecessor survives. `VERIFY — is there an earlier Safe Harbor Consultation Lead Flow in the list · settles by: the workflow list in the account`. If it is there, both answer to the same words in a search box, and an older copy looks exactly as correct as a current one at a glance.
+
+- **GOLDEN COPY - Lead Flow Vo2** — shares `Lead Flow Vo2` with this name, reported a backup draft that was never published. It sorts under G rather than S, so a search box returns both and a scroll down the list does not. Named in `catalog.md` under **Named, and nothing flowing through**.

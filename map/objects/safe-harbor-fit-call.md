@@ -1,53 +1,63 @@
 # Safe Harbor Fit Call
 
-**Type:**   calendar / booking link
-**Mark:**   VERIFY — not confirmed · settles by: the Calendars list in the account · **Checked:** not yet (drawn August 18, 2026)
-**Where:**  Calendars → "Safe Harbor Fit Call"
+**Type:**   calendar / booking link · settled: Sadie, August 19, 2026
+**Mark:**   LIVE · settled: Sadie, August 19, 2026    **Checked:** August 19, 2026
+**Where:**  Calendars → "Safe Harbor Fit Call" · calendar ID `AuOmiT3Afi2aXSlH7JJQ`
 **Source:** the calendar of that name, opened from the account. Cited, not copied — open the real thing and read it there (`rules.md` §4).
 
 Came here from Lane G of `catalog.md`. Read this card, then open the account. Do not open a second card (`rules.md` §5).
 
 ---
 
-**Links on this card are written as slugs, never as whole URLs**
+**What earned the mark**
 
-A complete GoHighLevel booking URL carries the sub-account's location ID inside it. The slug is the part that answers the question people actually ask, so the slug is the part written down. Anywhere a full link would go, this card writes `[location ID redacted]` instead and stops.
+- **found in the account** — Calendars
+- **enabled, with availability on it** — Monday to Friday, 8:00am to 5:00pm, auto-confirm on
+- **a link to it in use** — the booking slug resolves live, and two walked workflows send it to contacts
+
+All three settled: Sadie, August 19, 2026.
 
 ---
 
-**The mark is not yet earned**
+**VERIFY-1 — settled**
 
-- **LIVE** would need: found in the Calendars list · showing as enabled, with availability on it · at least one link to it in use, or an object that hands off to it.
-- **LEFTOVER** would need: found in the list, and no link to it in use anywhere — or found switched off.
+**`safe-harbor-fit-call` is the live slug.** `safeharbor-fit-call` returns a 404 · settled: Sadie, August 19, 2026 — she opened the calendar, read the link off it, and tested both spellings in a browser.
 
-Nobody has opened the list. Until somebody does, this card makes no claim either way.
+This was the highest-priority open line on the map, and the reason it mattered stands even now it is closed: Safe Harbor's own written documentation disagreed with itself, so **at least one document still in circulation carries the dead spelling**. A link copied out of a document rather than out of the account may still be the 404.
 
-**The slug question makes LIVE harder to earn here than on a workflow card.** "At least one link in use" is the usual way in for a calendar. When two spellings of a slug are in circulation, a link being in use somewhere does not establish that it is a link to *this* object. One of the two spellings resolves to this calendar. The other resolves to something, or to nothing, and which is which is the open question below.
+The two walked workflows that send the link — **Safe Harbor Consultation Lead Flow Vo2** and **SH - Fit Call No Show** — both carry the live spelling · settled: Sadie, August 19, 2026. Anywhere else it appears has not been checked: `VERIFY — which other objects, documents, or messages carry a booking link, and which spelling each uses · settles by: the account, and wherever Safe Harbor keeps its written documentation`
+
+**A correction to this card's own reasoning.** It previously said a complete booking URL carries the sub-account's location ID, and redacted whole links for that reason. The live link is of the form `.../widget/bookings/<slug>` and carries no location ID · settled: Sadie, August 19, 2026. The slugs-only habit stays because the slug is the part that answers the question, but the reason written here was wrong and the account is what corrected it (`rules.md` §4).
 
 ---
 
 **Hits**
 
-Nothing below is a claim about what moves. Each line is the question that has to be answered, standing where its answer will go.
+- A booking on this calendar fires **SH - Fit Call Booked** · settled: Sadie, August 19, 2026
+- Setting an appointment on it to status **showed** fires **SH - Fit Call Attended**; setting it to **No Show** fires **SH - Fit Call No Show** · settled: Sadie, August 19, 2026
+- All three of those trigger on this calendar's ID specifically, not on any booking anywhere in the account · settled: Sadie, August 19, 2026
+- Books 15-minute calls with **Apollo**, on Google Meet · settled: Sadie, August 19, 2026
+- Accepts bookings from at least 4 hours ahead, up to 60 days out · settled: Sadie, August 19, 2026
+- **Auto-confirms**, and sends its own confirmation message to the client from this screen · settled: Sadie, August 19, 2026
 
-- `VERIFY-1 — booking slug: safe-harbor-fit-call or safeharbor-fit-call · settles by: opening both links live`
-- `VERIFY — what fires when somebody books on this calendar, and which workflows pick the booking up · settles by: the trigger steps of the workflows in the account`
-- `VERIFY — whether SH - Fit Call Booked fires from this calendar specifically, or from any booking anywhere in the account · settles by: the trigger step in that workflow`
-- `VERIFY — whether the reminder before a call comes from this calendar's own notification settings or from a workflow step · settles by: this calendar's notification settings, and the steps in SH - Fit Call Booked`
-- `VERIFY — which tag, if any, a booking on this calendar applies · settles by: the calendar and the workflows in the account`
-- `VERIFY — whose availability this calendar reads, and who it is assigned to · settles by: the calendar in the account`
-- `VERIFY — whether Maria or Sarah books onto this calendar · settles by: the account`
+**The confirmation message lives here, not in a workflow** · settled: Sadie, August 19, 2026.
 
-A Hits line names a consequence the reader can go and look at (`rules.md` §3). None can be named from what has been seen, so each carries a VERIFY rather than a guess.
+This is the correction that matters most for anybody routed to Lane C. `SH - Fit Call Booked` sends nothing at all — it only moves tags. Somebody told to "change the confirmation message" who opens that workflow will find no message in it. The wording is on this calendar's screen.
 
-**VERIFY-1 is the highest-priority open line on this map.** Both spellings are in circulation, they differ by one hyphen, and Safe Harbor's own written documentation disagrees with itself about which is canonical — so at least one document somewhere is stale, and anybody copying a link out of a document rather than out of the account may be copying the stale one. `TEST_METHOD.md` puts this first among the three items Sadie resolves in Test A. Until she does, a link that came from anywhere other than this calendar's own screen is unconfirmed.
+The confirmation message also tells the client a confirmation text follows. What sends that text is not on the walked map: `VERIFY — what sends the confirmation text the calendar's message promises · settles by: this calendar's notification settings, and the account`
 
-**The fourth line is a two-places problem, not a detail.** A reminder before a fit call can live in this calendar's notification settings or in a workflow step, and both produce a message that arrives before the same call. Somebody sent to change "the reminder" who changes one of them has changed a real thing and left the other one running.
+`VERIFY — whether a reminder goes out before the call, and whether it comes from this calendar's notification settings or from somewhere else · settles by: this calendar's notification settings in the account`
+
+**Two statuses on this calendar are set by a person, by hand** · settled: Sadie, August 19, 2026 (C-5). Nothing here flips an appointment to showed or No Show when the time passes. Both downstream workflows wait on somebody clicking.
+
+`VERIFY — whose availability this calendar reads beyond Apollo, and who else it is assigned to · settles by: the calendar in the account`
 
 ---
 
 **Does not hit**
 
-- **Schedule an Appointment** — the other calendar. Both objects live on the same screen under Calendars, and the words "the booking calendar" and "the appointment calendar" describe either one. It is reported as do-not-touch, and workflows are reported to filter around it — which means its name appears *inside* workflow steps. A reader searching the account for calendar references will therefore find `Schedule an Appointment` sitting in workflows that have nothing else to do with it, and that appearance is a filter excluding it, not a connection to it. It is named in `catalog.md` under **Named, and nothing flowing through**.
+- **Schedule an Appointment** — the other calendar, on the same screen. The words "the booking calendar" and "the appointment calendar" describe either one. It is reported as do-not-touch, and workflows are reported to filter around it, which puts its name *inside* workflow steps that have nothing else to do with it. That appearance is a filter excluding it, not a connection. Named in `catalog.md` under **Named, and nothing flowing through**.
 
-- **The workflow carrying the text the link was in.** This is the near-miss for the sentence that sends most people here — *"the link in the text goes to the wrong place."* The link lives on this calendar; the message carrying it lives in a workflow step. Changing this calendar does not change a link already typed into a message, and changing a message does not change where this calendar sends anybody. Which workflows carry a booking link, and which spelling each one carries, is open: `VERIFY — which workflows contain a booking link and which spelling each uses · settles by: the message steps in each SH - Fit Call workflow`. That question and VERIFY-1 are the same question asked from the two ends.
+- **The workflow carrying the text the link was in.** Still the near-miss for *"the link in the text goes to the wrong place"* — but the shape of it has changed now VERIFY-1 is settled. The link is correct in both walked workflows, so a wrong link found in a message did not come from either of them, and changing this calendar will not fix a stale link already typed somewhere else. Both spellings differ by one hyphen on screen.
+
+- **Sarah, and any booking made from a call.** Sarah is configured in a different sub-account and does not create contacts in this one · settled: Sadie, August 19, 2026 (C-9). `VERIFY — whether Maria books onto this calendar, and whether a booking she makes is distinguishable from one a person made · settles by: the account`

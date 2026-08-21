@@ -1,54 +1,58 @@
 # SH - Fit Call Attended
 
-**Type:**   workflow
-**Mark:**   VERIFY — not confirmed · settles by: the workflow list in the account · **Checked:** not yet (drawn August 18, 2026)
-**Where:**  Automation → Workflows → "SH - Fit Call Attended"
+**Type:**   workflow **and** tag — two objects, one name · settled: Sadie, August 19, 2026
+**Mark:**   LIVE · settled: Sadie, August 19, 2026    **Checked:** August 19, 2026
+**Where:**  Automation → Workflows → "SH - Fit Call Attended" · the tag: Settings → Tags → `fit call attended`
 **Source:** the workflow of that name, opened from the account. Cited, not copied — open the real thing and read it there (`rules.md` §4).
 
 Came here from Lane E of `catalog.md`. Read this card, then open the account. Do not open a second card (`rules.md` §5).
 
 ---
 
-**The type on this card is an inference, not a finding**
+**What earned the mark**
 
-`SH - ` is the prefix carried by the three workflows walked so far, and by neither tag walked so far — `Fit Call Booked` and `Appointment Booked` carry no prefix. That pattern is where **workflow** on the line above came from.
+This is the one object on the walked map where all three of `rules.md` §1's conditions came back answered:
 
-A pattern across three names is not a finding about a fourth. If this name turns out to sit on a tag, an appointment status, or something else, the type line is what was wrong, and it gets corrected against the account (`rules.md` §4).
+- **found in the account** — Automation → Workflows
+- **published** — status Published, version 5, created and last updated August 12, 2026
+- **a way in that can fire** — an appointment on the Safe Harbor Fit Call calendar set to status "showed"
 
-`VERIFY — that this name sits on a workflow rather than a tag or an appointment status · settles by: the workflow list in the account`
+All three settled: Sadie, August 19, 2026.
 
 ---
 
-**The mark is not yet earned**
+**The type was an inference. It was half right, and the half it missed is the interesting half.**
 
-- **LIVE** would need: found in the workflow list · showing as published · at least one way in that can still fire.
-- **LEFTOVER** would need: found in the list, and no way in survives.
+This card previously guessed **workflow** from the `SH - ` prefix, and flagged the guess. Sadie found **both** a published workflow and a tag named `fit call attended` (C-4).
 
-Nobody has opened the list. Until somebody does, this card makes no claim either way.
+It is **not** an appointment status. Those are system-defined — `confirmed`, `showed`, `no-show`, `cancelled` — and "Fit Call Attended" is not among them · settled: Sadie, August 19, 2026.
+
+So the prefix pattern found a real workflow and hid a real tag standing beside it. This is the **third** instance of the same shape on this map, after `SH - Fit Call Booked` / `fit call booked` and the pair in Lane F. A name on this map does not reliably belong to one object.
 
 ---
 
 **Hits**
 
-Nothing below is a claim about what moves. Each line is the question that has to be answered, standing where its answer will go.
+- Fires when an appointment on the **Safe Harbor Fit Call** calendar is set to status **showed** — calendar ID `AuOmiT3Afi2aXSlH7JJQ`, standard events and contacts only · settled: Sadie, August 19, 2026
+- Removes the tags `fit call nurture`, `fit call no show`, and `fit call booked` · settled: Sadie, August 19, 2026
+- Adds the tag `fit call attended` · settled: Sadie, August 19, 2026
+- Removes the contact from **SH - Fit Call Nurture (Alt Days)** · settled: Sadie, August 19, 2026
 
-- `VERIFY — what fires this workflow, and what marks a contact as attended in the first place · settles by: the trigger step at the top of the workflow`
-- `VERIFY — whether attended is set by the calendar's appointment status or by a person changing it by hand · settles by: the trigger step in the account`
-- `VERIFY — which tag it applies, and which it removes · settles by: the workflow in the account`
-- `VERIFY — whether it stops SH - Fit Call Nurture (Alt Days) for that contact · settles by: both workflows in the account`
-- `VERIFY — whether it moves the contact into a pipeline stage, and which one · settles by: the steps in the workflow`
-- `VERIFY — what it sends after the call, and how long after · settles by: the steps in the workflow`
+**A person sets attended, not the calendar** · settled: Sadie, August 19, 2026 (C-5). The platform does not flip an appointment to "showed" when the time passes. Somebody opens the appointment and changes the status by hand. If nobody does, this workflow never fires and a contact who genuinely attended keeps their `fit call booked` tag and stays in the nurture.
 
-A Hits line names a consequence the reader can go and look at (`rules.md` §3). None can be named from what has been seen, so each carries a VERIFY rather than a guess.
+**This workflow sends nothing** — no SMS, no email. Every action is a tag or a workflow removal · settled: Sadie, August 19, 2026. Anybody sent here to change "the follow-up after the call" will not find a message in it.
 
-**The second line is the one that decides who can reach this workflow.** An attended state set by the calendar and an attended state set by a person are two different doors, opened by different people doing different things, and only one of them is described inside this workflow.
+`VERIFY — whether anything sends a post-call message, and where it lives · settles by: the account`
+`VERIFY — whether this workflow moves the contact into a pipeline stage · settles by: the steps in the workflow`
 
-**The fourth line is the same question the SH - Fit Call Booked card asks about itself.** If both stop the nurture, both touch the same contact, and per `rules.md` §3 that belongs in **Hits** on both cards rather than in either card's **Does not hit**. Which of them actually does it — or whether both do — is open.
+**It is the second object that stops the nurture.** `SH - Fit Call Booked` does the same. Per `rules.md` §3 that belongs in **Hits** on all three cards rather than in anybody's **Does not hit**.
 
 ---
 
 **Does not hit**
 
-- **SH - Fit Call No Show** — shares the first 14 characters with this one: `SH - Fit Call `. The character count is the weaker half of the resemblance. The sharper half is that these two are the two outcomes of the same appointment. A contact's path is identical right up until the appointment time passes, and then it is one of these or the other. The word that separates them sits at the end of both names, which is the part of a name a reader confirms last.
+- **The tag `fit call attended`.** Same name, different object, different screen. This workflow is what writes that tag. `VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags`
 
-- **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `. Named for the same appointment at the other end of it — Booked is reached when the appointment is made, this one when it is kept. Anybody handed the words "the fit call one" has at least three names to choose between, and all three are true descriptions of something that happened around one call.
+- **SH - Fit Call No Show** — shares the first 14 characters: `SH - Fit Call `. The character count is the weaker half of the resemblance. The sharper half is that these two are the two outcomes of one appointment, reached from **the same screen by the same person choosing a different status**. A contact's path is identical right up until somebody clicks, and the word that separates the two names sits at the end of both, which is the part a reader confirms last.
+
+- **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `. Named for the same appointment at the other end of it — Booked fires when the appointment is made, this one when somebody records that it was kept. Anybody handed "the fit call one" has at least three workflow names and four tags to choose between, and all of them are true descriptions of something that happened around one call.

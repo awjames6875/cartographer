@@ -1,7 +1,7 @@
 # SH - Fit Call Nurture (Alt Days)
 
-**Type:**   workflow
-**Mark:**   VERIFY — not confirmed · settles by: the workflow list in the account · **Checked:** not yet (drawn August 18, 2026)
+**Type:**   workflow · settled: Sadie, August 19, 2026
+**Mark:**   VERIFY — not confirmed · settles by: the published state in the workflow list · **Checked:** August 19, 2026
 **Where:**  Automation → Workflows → "SH - Fit Call Nurture (Alt Days)"
 **Source:** the workflow of that name, opened from the account. Cited, not copied — open the real thing and read it there (`rules.md` §4).
 
@@ -9,40 +9,51 @@ Came here from Lane B of `catalog.md`. Read this card, then open the account. Do
 
 ---
 
-**The mark is not yet earned**
+**The mark is one leg short**
 
-- **LIVE** would need: found in the workflow list · showing as published · at least one way in that can still fire.
-- **LEFTOVER** would need: found in the list, and no way in survives.
+`rules.md` §1 wants three things for LIVE. Sadie's walk gave two:
 
-Nobody has opened the list. Until somebody does, this card makes no claim either way.
+- **found in the account** — settled: Sadie, August 19, 2026
+- **a way in that can fire** — settled: Sadie, August 19, 2026 (the tag trigger below)
+- **published** — *not confirmed.* She read the trigger and the steps, which a draft also shows. She was not asked the published state of this one.
 
 ---
 
 **Hits**
 
-Nothing below is a claim about what moves. Each line is the question that has to be answered, standing where its answer will go.
+- Fires when the tag `fit call nurture` is added to a contact. That tag is the only way in · settled: Sadie, August 19, 2026
+- Sends **15 SMS, spaced 2 days apart** — about four weeks end to end. SMS only; no email anywhere in it · settled: Sadie, August 19, 2026
+- Every message carries the Fit Call booking link, slug `safe-harbor-fit-call` · settled: Sadie, August 19, 2026
+- Removes the tag `fit call nurture` from the contact after the last message, so a contact who finishes does not re-enter on that tag · settled: Sadie, August 19, 2026
 
-- `VERIFY — what fires this workflow, and what puts a contact into it · settles by: the trigger step at the top of the workflow`
-- `VERIFY — how many messages it sends and how far apart · settles by: the wait steps in the workflow`
-- `VERIFY — whether a contact stops receiving these once they book · settles by: the workflow in the account`
-- `VERIFY — which tag it applies or reads · settles by: the workflow in the account (see VERIFY-2 on the Vo2 card)`
-- `VERIFY — whether anything runs downstream of this one · settles by: the workflow in the account`
+**If you were sent here to change timing, three things decide what else moves.**
 
-**The name says `Alt Days`. Whether the wait steps still match the name is a separate question** — a name is written once and the steps get edited afterwards. `VERIFY — do the wait steps match the spacing the name claims · settles by: the wait steps in the workflow`. Anyone changing the timing is changing the thing the name is describing, and the name will not update itself.
+**One — the name is currently true, and it will not stay true by itself.** The wait steps are 2 days apart, which is what `Alt Days` claims · settled: Sadie, August 19, 2026. Change the spacing and the name starts describing something the workflow no longer does. The name will not update itself.
 
-**If you were sent here to change timing,** the third line above is the one that decides what else moves. A sequence that stops on booking and a sequence that does not behave very differently when the spacing changes.
+**Two — the length is 15 messages, not the spacing alone.** Widening the gaps stretches the whole sequence past four weeks. The last message is written as a last message, and it arrives whenever the maths puts it.
+
+**Three — this sequence stops when a contact books, and that stop lives in other workflows, not in this one.** Two objects reach in and pull contacts out:
+
+- **SH - Fit Call Booked** removes the contact from this workflow and removes the `fit call nurture` tag · settled: Sadie, August 19, 2026
+- **SH - Fit Call Attended** does the same · settled: Sadie, August 19, 2026
+
+Per `rules.md` §3 both belong in **Hits** here as well as on their own cards, because all three touch the same contact. Editing this workflow does not change either of them, and neither of them appears when you have this one open on screen.
+
+**A contact can come back into this sequence after missing a call.** `SH - Fit Call No Show` waits 2 days, checks whether the contact has re-booked, and on the branch where they have not, adds `fit call nurture` again — which starts this workflow over from message one · settled: Sadie, August 19, 2026.
 
 ---
 
 **Does not hit**
 
-Two of them, and which one a person actually grabs is unsettled:
+**Four of them now, not two.** Sadie's walk found two published nurture campaigns the map did not have (`/receipts/`, C-7):
 
-- **SH - Fit Call No Show** — shares the first 15 characters with this one: `SH - Fit Call N`. A search box typed that far returns both.
-- **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `. A search box typed that far returns all three.
+- **SH - Fit Call No Show** — shares the first 15 characters: `SH - Fit Call N`. A search box typed that far returns both.
+- **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `.
+- **SH - Assessment Booking Nurture** — shares the first 5, `SH - `, and the word **Nurture**. Found and published · settled: Sadie, August 19, 2026. No card yet.
+- **Paperwork Reminder Nurture** — shares no prefix at all, and the word **Nurture**. Found and published · settled: Sadie, August 19, 2026. No card yet.
 
-Those character counts are facts about the names. Which of the two a person reaches for by mistake is not a fact about the names, and nothing in the account settles it — it is a fact about people, and it gets settled by watching one happen.
+**The word `nurture` is the trap, not the prefix.** Somebody handed *"change the nurture texts"* types `nurture` into the search box, and that returns all four names above plus the tag `fit call nurture` — five results, three of them workflows that send messages. Typing `SH - Fit Call N` returns two. The shorter, more natural search is the one that returns the bigger pile.
 
-`VERIFY — which of these two gets grabbed in place of this workflow · settles by: Test B — the run itself, and which name Nicole opens first`
+`VERIFY — which of these gets grabbed in place of this workflow · settles by: Test B — the run itself, and which name Nicole opens first`
 
-Until then both are live risks. Confirm the name at the top of the screen before touching anything.
+Until then all four are live risks. Confirm the name at the top of the screen before touching anything.
