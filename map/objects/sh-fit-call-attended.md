@@ -21,13 +21,11 @@ All three settled: Sadie, August 19, 2026.
 
 ---
 
-**The type was an inference. It was half right, and the half it missed is the interesting half.**
-
-This card previously guessed **workflow** from the `SH - ` prefix, and flagged the guess. Sadie found **both** a published workflow and a tag named `fit call attended` (C-4).
+**This name belongs to two objects.** A published workflow, and a tag called `fit call attended` · settled: Sadie, August 19, 2026 (C-4).
 
 It is **not** an appointment status. Those are system-defined — `confirmed`, `showed`, `no-show`, `cancelled` — and "Fit Call Attended" is not among them · settled: Sadie, August 19, 2026.
 
-So the prefix pattern found a real workflow and hid a real tag standing beside it. This is the **third** instance of the same shape on this map, after `SH - Fit Call Booked` / `fit call booked` and the pair in Lane F. A name on this map does not reliably belong to one object.
+This is the third name on the map that belongs to two objects, after `SH - Fit Call Booked` / `fit call booked` and the pair in Lane F.
 
 ---
 
@@ -51,8 +49,10 @@ So the prefix pattern found a real workflow and hid a real tag standing beside i
 
 **Does not hit**
 
-- **The tag `fit call attended`.** Same name, different object, different screen. This workflow is what writes that tag. `VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags`
+**Two objects carry this name.** The workflow is at Automation → Workflows. The tag `fit call attended` is at Settings → Tags. Check which one you have open before you change anything.
 
-- **SH - Fit Call No Show** — shares the first 14 characters: `SH - Fit Call `. The character count is the weaker half of the resemblance. The sharper half is that these two are the two outcomes of one appointment, reached from **the same screen by the same person choosing a different status**. A contact's path is identical right up until somebody clicks, and the word that separates the two names sits at the end of both, which is the part a reader confirms last.
+- **The tag `fit call attended`** — not this one. Same name, different screen. This workflow is what writes it. `VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags`
+- **`SH - Fit Call No Show`** — not this one. Same first 14 characters: `SH - Fit Call `. Same appointment, same screen, same person — a different status. The word that separates the names sits at the end, which is the part read last.
+- **`SH - Fit Call Booked`** — not this one. Same first 14. Booked fires when the appointment is made. This one fires when somebody records it was kept.
 
-- **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `. Named for the same appointment at the other end of it — Booked fires when the appointment is made, this one when somebody records that it was kept. Anybody handed "the fit call one" has at least three workflow names and four tags to choose between, and all of them are true descriptions of something that happened around one call.
+**"The fit call one" is at least three workflow names and four tags.** All of them describe something that happened around one call.

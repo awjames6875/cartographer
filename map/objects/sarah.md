@@ -9,40 +9,34 @@ Came here from Lane H of `catalog.md`. Read this card, then open the account. Do
 
 ---
 
-**This card was wrong, and the account corrected it**
+**Don't look for Sarah in this sub-account. She is configured in Safe Harbor Behavioral Health, next door** · settled: Sadie, August 19, 2026 (C-9).
 
-It previously said: *"Sarah runs on GoHighLevel. She is in the territory `identity.md` draws, which means all of her is mappable."*
-
-She is not. Sadie found her configured under the **Safe Harbor Behavioral Health** sub-account. The calls she answers are stored there · settled: Sadie, August 19, 2026 (C-9).
-
-`identity.md` puts *"the agency account above it, and any other sub-account beside it"* outside the boundary. Sarah is beside it. **She is outside**, and the card that said otherwise is the thing that was wrong (`rules.md` §4). The correction is dated in `/receipts/`.
+This card used to say she was inside the territory. She is not. The calls she answers are stored in that other sub-account. `identity.md` puts *"any other sub-account beside it"* outside the boundary. The card was wrong and the account corrected it (`rules.md` §4), dated in `/receipts/`.
 
 ---
 
-**Both voice AI are outside the boundary. They are outside it differently.**
+**Sarah is the more dangerous of the two voice AI, because she looks reachable.**
 
-This is the shape of Lane H now, and it is worth holding before opening anything:
+- **Maria** runs on **VAPI** — not GoHighLevel at all. She fails loudly. VAPI is visibly not GoHighLevel.
+- **Sarah** runs on **GoHighLevel**, next door. She fails quietly. Right platform, familiar screens, wrong sub-account.
 
-- **Maria** runs on **VAPI** — not GoHighLevel at all. A different product.
-- **Sarah** runs on **GoHighLevel**, in a **neighbouring sub-account**. The right product, the wrong territory.
-
-Sarah is the more dangerous of the two, because she looks reachable. A reader with a GoHighLevel login, on the right platform, seeing familiar screens, can work on her for some time before noticing which sub-account is loaded. Maria fails loudly — VAPI is visibly not GoHighLevel. Sarah fails quietly.
+A reader with a login can work on her for some time before noticing which sub-account is loaded.
 
 ---
 
 **The mark is declined, not deferred**
 
-Same as Maria's, for the same reason and by a different route. **LIVE** requires the object was found *in the account* (`rules.md` §1) — and "the account", for this map, means Safe Harbor Parent Intake. No walk of that sub-account will find Sarah, however carefully it is done.
+**LIVE** requires the object was found *in the account* (`rules.md` §1). For this map, "the account" means Safe Harbor Parent Intake. No walk of that sub-account will find Sarah, however carefully it is done.
 
-She can certainly be marked. Not here. A map of the sub-account she lives in is the thing that can do it, and this folder is not that map.
+She can be marked. Not here. That takes a map of the sub-account she lives in, and this folder is not it.
 
 ---
 
 **Not guessing the menu path is what caught this**
 
-The old card left `Where` open and said a guessed menu path would be the most expensive guess this folder could make, because it does not fail loudly — it sends a reader somewhere with confidence, they find something there, and they work on it.
+The old card left `Where` open rather than guess a screen. Any plausible guess would have named a screen in Safe Harbor Parent Intake. A reader would have gone there, in the wrong sub-account, and started looking — and found something, because there is always something.
 
-That is exactly what a guess would have done. Any plausible path written for this card would have named a screen in Safe Harbor Parent Intake, and a reader would have gone to that screen, in the wrong sub-account, and started looking. The VERIFY held the space open until somebody with a login could read it off a screen, and what they read was that the screen is somewhere else.
+The VERIFY held the space open until somebody with a login read it off a screen. What they read was that the screen is somewhere else.
 
 ---
 
@@ -66,8 +60,10 @@ If both come back empty, this card has no Hits inside the boundary, and that is 
 
 **Does not hit**
 
-- **Maria** — the other voice AI, and the same fork read from the other side: **did Safe Harbor call them, or did they call Safe Harbor?** Sarah is the inbound one. The direction question still tells them apart, and it is no longer the expensive part. Neither one is changed in this account. Somebody who reaches for the wrong one of these is choosing between two different wrong systems — VAPI, or the sub-account next door. `catalog.md` Lane H puts the fork in front of both cards.
+**Neither voice AI is changed in this account.**
 
-- **Anything in this sub-account named for a phone call.** The near-miss for *"Sarah answered the phone wrong."* Inbound calls arriving somewhere in Safe Harbor's world are not all arriving here, and a reader who searches this account for call handling will find objects — Maria's outbound step among them — that have nothing to do with Sarah. Finding something is not the same as finding her.
+- **Maria** — not this one. The other voice AI. *Did Safe Harbor call them, or did they call Safe Harbor?* Sarah is inbound. Direction still tells them apart. The wrong choice lands you in VAPI or in the sub-account next door. `catalog.md` Lane H puts the fork in front of both cards.
+- **Anything here named for a phone call** — not her. Sent here because *"Sarah answered the phone wrong"*? Searching this account for call handling returns objects — Maria's outbound step among them — that have nothing to do with Sarah. Finding something is not finding her.
+- **`SH - Fit Call Booked`** — not her. Sent here because *"Sarah sent the wrong text"*? Sarah is voice; a voice call does not send a text. That workflow fires on a booking on the Fit Call calendar. Whether Sarah can book onto a calendar in this sub-account at all is unconfirmed. `VERIFY — whether a booking Sarah makes can reach the Safe Harbor Fit Call calendar in this sub-account · settles by: the account`
 
-- **SH - Fit Call Booked** — the near-miss for *"Sarah sent the wrong text."* Sarah is voice; a text is not something a voice call sends. On the walked map, a booking on the Fit Call calendar is what fires that workflow. Whether Sarah can book onto a calendar in this sub-account at all is now doubtful and unconfirmed: `VERIFY — whether a booking Sarah makes can reach the Safe Harbor Fit Call calendar in this sub-account · settles by: the account`. The words "Sarah sent it" are how the whole chain gets described by the person who received it, and the object that actually sent it may not be in this account either.
+**"Sarah sent it" is how the person who received it describes the whole chain.** The object that actually sent it may not be in this account.

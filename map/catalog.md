@@ -56,9 +56,12 @@ A contact moves through this account in a rough order. Each lane below is one mo
 **Where:** Automation → Workflows → "Safe Harbor Consultation Lead Flow Vo2"
 **Card:** `objects/safe-harbor-consultation-lead-flow-vo2.md`
 
-**This workflow is also where Maria lives.** The step that places her outbound call sits on one of its branches · settled: Sadie, August 19, 2026. If you were sent here about the voice AI that calls new leads, this is the right lane and `objects/maria.md` is the card that explains the boundary.
+**This workflow is also where Maria lives.** The step that places her outbound call sits on one of its branches · settled: Sadie, August 19, 2026. Sent here about the voice AI that calls new leads? Right lane. `objects/maria.md` explains the boundary.
 
-**Not this one:** the name ends in **Vo2**, and whether an earlier version survives in the list is still open — `VERIFY — is there an earlier Safe Harbor Consultation Lead Flow in the workflow list · settles by: the workflow list in the account`. **GOLDEN COPY - Lead Flow Vo2** also shares the tail of this name and is reported a never-published backup; it is under **Named, and nothing flowing through**.
+**Not this one:**
+
+- **`GOLDEN COPY - Lead Flow Vo2`** — shares the tail of this name. Reported a never-published backup. It is under **Named, and nothing flowing through**.
+- **An earlier version, if one is still in the list.** The name ends in `Vo2`. Nobody was asked. `VERIFY — is there an earlier Safe Harbor Consultation Lead Flow in the workflow list · settles by: the workflow list in the account`
 
 ---
 
@@ -75,23 +78,27 @@ A contact moves through this account in a rough order. Each lane below is one mo
 
 **The way in is a tag.** This sequence starts when `fit call nurture` is added to a contact, and nothing else starts it · settled: Sadie, August 19, 2026.
 
-**Not this one — five of them now, and the trap is the word, not the prefix:**
+**The full name of this one is `SH - Fit Call Nurture (Alt Days)`, brackets included. Read the name to the end before you touch anything.**
 
-- **SH - Fit Call Nurture Trigger (24hr Check)** — workflow · published, no card · settled by workflow list captures, Sadie, Aug 21 2026. Shares the first **22 characters** — `SH - Fit Call Nurture ` — **the closest name to this one anywhere on the map.** Nobody has walked it, so what it does, what starts it and whether it sends anything are all unread.
-- **SH - Fit Call No Show** — shares the first 15 characters: `SH - Fit Call N`
-- **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `
-- **SH - Assessment Booking Nurture** — found and published, no card · settled: Sadie, August 19, 2026. Shares `SH - ` and the word **Nurture**
-- **Paperwork Reminder Nurture** — found and published, no card · settled: Sadie, August 19, 2026. Shares no prefix, and the word **Nurture**
+**Don't search `nurture`.** Five things come back. Three of them send texts. One is the tag that starts this workflow. One nobody has opened.
 
-Somebody handed *"change the nurture texts"* types **`nurture`** into the search box. That returns all five names above plus the tag `fit call nurture` — six results, four of them workflows. Typing `SH - Fit Call N` returns three. **The shorter, more natural search is the one that returns the bigger pile — and neither search separates the two `SH - Fit Call Nurture` workflows from each other.**
+**Don't search `SH - Fit Call Nurture` either.** Two things come back. They are identical for 22 characters.
 
-`VERIFY — what SH - Fit Call Nurture Trigger (24hr Check) does, what starts it, and whether it touches this sequence · settles by: opening it in the account`
+- **`SH - Fit Call Nurture (Alt Days)`** — this one. 15 texts, 2 days apart.
+- **`SH - Fit Call Nurture Trigger (24hr Check)`** — not this one. Published, no card · settled by workflow list captures, Sadie, Aug 21 2026. Nobody has opened it. `VERIFY — what it does, what starts it, and whether it touches this sequence · settles by: opening it in the account`
 
-Two campaigns were found by Sadie's walk and the map did not have them (`/receipts/`, C-7). The Trigger was found in the workflow-list captures on August 21 and the map did not have that either. All three are in **Found and published, not walked**, below.
+The brackets are the only difference.
+
+**Four more names sit close. None of them is this workflow.**
+
+- **`SH - Fit Call No Show`** — same first 15 characters: `SH - Fit Call N`. Lane D.
+- **`SH - Fit Call Booked`** — same first 14: `SH - Fit Call `. Lane C.
+- **`SH - Assessment Booking Nurture`** — a different campaign. Shares `SH - ` and the word `Nurture`. Published, no card · settled: Sadie, August 19, 2026
+- **`Paperwork Reminder Nurture`** — a different campaign. Shares only the word `Nurture`. Published, no card · settled: Sadie, August 19, 2026
+
+The two campaigns came from Sadie's walk (`/receipts/`, C-7). The Trigger came from the August 21 captures. All three are in **Found and published, not walked**, below.
 
 `VERIFY — which of these gets grabbed in place of the nurture · settles by: Test B — the run itself, and which name Nicole opens first`
-
-Confirm the name at the top of the screen before you touch anything.
 
 ---
 
@@ -106,13 +113,13 @@ Confirm the name at the top of the screen before you touch anything.
 **Where:** Automation → Workflows → "SH - Fit Call Booked"
 **Card:** `objects/sh-fit-call-booked.md`
 
-**Read this before you open that card. One of the three sentences above does not land here.**
+**One of the three sentences above does not land here. Read this before you open the card.**
 
-**"Change the confirmation message" belongs in Lane G, not this lane** · settled: Sadie, August 19, 2026. This workflow sends nothing at all — no SMS, no email. Every action in it is a tag or a workflow removal. The Fit Call calendar auto-confirms and carries its own confirmation message to clients, so the wording somebody receives on booking is on the calendar's screen. Anybody who opens this workflow looking for message wording will find tags, and leave without finding it.
+**"Change the confirmation message" is Lane G, not this lane** · settled: Sadie, August 19, 2026. This workflow sends nothing — no SMS, no email. The confirmation comes from the Fit Call calendar's own screen. Open this workflow looking for message wording and you will find tags.
 
-What this workflow does do: pulls the contact out of the nurture, clears their nurture and no-show tags, and marks them `fit call booked`.
+**What it does do:** pulls the contact out of the nurture, clears their nurture and no-show tags, marks them `fit call booked`.
 
-**Not this one:** the **tag** `fit call booked`. Same words, different kind of object, different screen — the workflow under Automation, the tag under Settings. This workflow is what writes that tag, which makes the pair easier to confuse rather than harder. The tag is in **Lane F**.
+**Not this one:** the **tag** `fit call booked`. Same words, different screen — the workflow under Automation, the tag under Settings. This workflow is what writes it. The tag is in **Lane F**.
 
 ---
 
@@ -131,7 +138,7 @@ What this workflow does do: pulls the contact out of the nurture, clears their n
 
 **It is also the object that puts contacts back into the nurture.** Two days after the rebooking SMS, on the branch where the contact still has not booked, it adds `fit call nurture` — which starts Lane B from its first message · settled: Sadie, August 19, 2026.
 
-**Not this one:** **SH - Fit Call Nurture (Alt Days)** — both names begin `SH - Fit Call N`, sharing 15 characters, and the two are genuinely wired together, so the names are not the only reason a reader ends up holding the wrong one.
+**Not this one:** **`SH - Fit Call Nurture (Alt Days)`** — same first 15 characters, `SH - Fit Call N`. The two are wired together as well as near-named. Lane B is the nurture itself.
 
 ---
 
@@ -146,13 +153,13 @@ What this workflow does do: pulls the contact out of the nurture, clears their n
 **Where:** Automation → Workflows → "SH - Fit Call Attended" · the tag: Settings → Tags → `fit call attended`
 **Card:** `objects/sh-fit-call-attended.md`
 
-This is the one object on the walked map with all three legs answered — found, published (version 5, created August 12 2026), and a way in that can fire.
+**This name belongs to two objects** — a published workflow (version 5, created August 12 2026) and a tag called `fit call attended` · settled: Sadie, August 19, 2026 (C-4). It is **not** an appointment status; those are system-defined.
 
-**The map guessed the type from the `SH - ` prefix and the guess was half right.** There is a published workflow *and* a matching tag. It is **not** an appointment status — those are system-defined · settled: Sadie, August 19, 2026 (C-4).
+**A person sets this by hand** — the appointment status "showed" · settled: Sadie, August 19, 2026.
 
-**Like Lane D, a person sets this by hand** — the appointment status "showed" · settled: Sadie, August 19, 2026. **And like Lane C, this workflow sends nothing** — it only moves tags and pulls the contact out of the nurture. Anybody sent here for "the post-call message" will not find a message in it.
+**This workflow sends nothing.** It moves tags and pulls the contact out of the nurture. Sent here for "the post-call message"? It is not in this workflow.
 
-**Not this one:** **SH - Fit Call No Show** — the other outcome of the same appointment, reached **from the same screen by the same person choosing a different status**. Sharing 14 characters is the weaker half of that resemblance.
+**Not this one:** **`SH - Fit Call No Show`** — the other outcome of the same appointment. Same screen, same person, different status. The 14 shared characters are the weaker half of the resemblance.
 
 ---
 
@@ -180,9 +187,11 @@ Every tag-writing object walked so far writes one of the `fit call ...` tags. **
 
 `VERIFY — what writes the tag Appointment Booked, if anything does · settles by: the account`
 
-That is a record of what each object reads and writes. It is not a finding that anything is wrong (`rules.md` §6), and six objects is not the account. Asked separately whether anything still used the older tag, the walk answered **"NO"** — while the same walk recorded Vo2 reading it. Both answers are on the record in `/receipts/`, unreconciled.
+A record of what each object reads and writes. Not a finding (`rules.md` §6), and six objects is not the account.
 
-`VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags` — `Appointment Booked` was reported with capitals and the `fit call ...` tags in lower case, and whether that is one tag or two is not something this walk answers.
+The walk was also asked whether anything still uses the older tag and answered **"NO"** — in the same walk that recorded Vo2 reading it. Both answers are in `/receipts/`, unreconciled.
+
+`VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags` — `Appointment Booked` was reported with capitals, the `fit call ...` tags in lower case.
 
 **Daycare Affiliation Tagging** — workflow · **Where:** Automation → Workflows
 `VERIFY-3 — settled, and the state changed during the walk.` It was **published** when Sadie opened it, and she switched it off during the run · settled: Sadie, August 19, 2026. It is now under **Named, and nothing flowing through**, with that history attached.
@@ -204,16 +213,16 @@ That is a record of what each object reads and writes. It is not a finding that 
 
 `VERIFY-1 — settled.` **`safe-harbor-fit-call` is the live slug.** `safeharbor-fit-call` returns a 404 · settled: Sadie, August 19, 2026 — she read the link off the calendar and opened both spellings.
 
-It was the highest-priority open line on this map, and the reason it mattered outlives the answer: Safe Harbor's own written documentation disagreed with itself, so **at least one document still in circulation carries the dead spelling.** Both walked workflows that send the link carry the live one. Anywhere else it appears has not been checked.
+**Don't copy a booking link out of a document.** Safe Harbor's own documentation disagreed with itself, so at least one document in circulation carries the dead spelling. Both walked workflows carry the live one. Nowhere else has been checked.
 
-**The confirmation message lives here** — the calendar auto-confirms and sends its own message to clients · settled: Sadie, August 19, 2026. That sentence is listed under Lane C by habit and it belongs to this object.
+**The confirmation message lives here** — the calendar auto-confirms and sends its own message · settled: Sadie, August 19, 2026. People say that sentence at Lane C out of habit. It belongs to this object.
 
 15-minute calls with Apollo, on Google Meet, Monday to Friday 8am–5pm, bookable from 4 hours ahead up to 60 days out · settled: Sadie, August 19, 2026.
 
-**Not this one — two of them, and they go wrong in different directions:**
+**Not this one:**
 
-- **Schedule an Appointment** — the other calendar, on the same screen. Reported do-not-touch, and workflows are reported to filter around it, so its name turns up *inside* workflow steps that have nothing else to do with it. That appearance is a filter excluding it, not a connection. It is in **Named, and nothing flowing through**.
-- **The workflow carrying the text the link was in.** The link lives on the calendar; the message carrying it lives in a workflow step. Now VERIFY-1 is settled, a wrong link found in a message did not come from either walked workflow — and changing the calendar will not fix a stale link already typed somewhere else.
+- **`Schedule an Appointment`** — the other calendar, same screen. Reported do-not-touch. Workflows filter around it, so its name turns up inside steps that have nothing else to do with it — that is a filter excluding it, not a connection. It is in **Named, and nothing flowing through**.
+- **The workflow the text was sent from.** The link lives on the calendar; the message carrying it lives in a workflow step. Both walked workflows carry the live slug, so a wrong link in a message did not come from either. Changing the calendar does not fix a link already typed somewhere else.
 
 ---
 
@@ -230,11 +239,11 @@ It was the highest-priority open line on this map, and the reason it mattered ou
 
 **Mark: declined for both.** Neither can earn a mark on this map — `rules.md` §1 requires the object be found *in the account*, and "the account" here is Safe Harbor Parent Intake.
 
-**The old question still sorts them:** *did Safe Harbor call them, or did they call Safe Harbor?* It is no longer the difference that costs the most. Neither is changed in this account, so the reader's real question is **which other system**.
+**Which one?** *Did Safe Harbor call them, or did they call Safe Harbor?* Outbound is Maria. Inbound is Sarah. Neither is changed in this account, so the real question is **which other system**.
 
-**Sarah is the more dangerous of the two.** Maria fails loudly — VAPI is visibly not GoHighLevel. Sarah fails quietly: a reader with a GoHighLevel login, seeing familiar screens, can work for some time before noticing which sub-account is loaded.
+**Sarah is the more dangerous of the two.** Maria fails loudly — VAPI is visibly not GoHighLevel. Sarah fails quietly. A reader with a GoHighLevel login, seeing familiar screens, can work for some time before noticing which sub-account is loaded.
 
-**Maria has an address inside this account and Sarah does not.** The step that starts Maria is inside **Safe Harbor Consultation Lead Flow Vo2** (Lane A) · settled: Sadie, August 19, 2026. Sarah creates no contacts here and her calls are stored next door · settled: Sadie, August 19, 2026. No footprint for her inside this sub-account has been found — which is not the same as none existing; nobody searched.
+**Maria has an address in this account. Sarah does not.** Maria's step is inside **Safe Harbor Consultation Lead Flow Vo2** (Lane A) · settled: Sadie, August 19, 2026. Sarah creates no contacts here and her calls are stored next door · settled: Sadie, August 19, 2026. No footprint for her has been found here — nobody searched, so that is not the same as none.
 
 Open the one. Not both (`rules.md` §5).
 

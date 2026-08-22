@@ -198,3 +198,63 @@ first wrote the trap down.
   columns.
 - **No single-account list has been read end to end,** which is why the count above is left open
   rather than replaced with a better number.
+
+---
+
+### 2026-08-22 — Pre-Test-B plain-language pass
+
+**Not a correction against the account. A correction against the reader.**
+
+**Why it happened:** Adam read Lane B of `catalog.md` and the `SH - Fit Call Nurture (Alt Days)`
+card as a stranger would, and could not follow the **Does not hit** section on first read. The
+author of a map failing to parse his own warning section is a failure of the map, not of the
+reader. Nicole walks it next, cold, with no author's memory to fall back on.
+
+**Requested Aug 21, run Aug 22.** Dated the day the edits were made, not the day the problem was
+found.
+
+#### The rules applied
+
+- Short sentences.
+- The warning first. The explanation after, or not at all.
+- **"Don't"** where the line is a warning about the territory. Ruled in scope by Adam: the map
+  already says *"Confirm the name at the top of the screen,"* so a warning is not a
+  recommendation and does not break `rules.md` §6.
+- Cut the explanation of **why** a trap exists. Name the trap.
+- No *"you should," "consider," "it would be better if,"* or any fix language.
+
+#### What this pass did not touch
+
+- **No mark changed.** No object moved between LIVE, LEFTOVER, GHOST or declined.
+- **No VERIFY was removed, settled, or reworded into something weaker.** Every open question that
+  went into this pass came out of it.
+- **No fact changed** — every `settled: <name>, <date>` line kept its name and its date.
+- `identity.md` and `rules.md` untouched, as always.
+
+#### One thing that was not a wording change
+
+Rewriting Lane B surfaced a claim that was simply wrong. The card and the catalog both said that
+typing `nurture` into the search box returns *"all five names above"* — a list that included
+`SH - Fit Call No Show` and `SH - Fit Call Booked`. Neither name contains the word. That sentence
+had been carried since the Lane B collision set was first written and survived the walk.
+
+It now reads five results and says what they are: three that send texts, the tag `fit call
+nurture`, and the one nobody has opened. That is what the search returns.
+
+`reference/collisions.md` had it right the whole time. The catalog and the card did not.
+
+#### Scope
+
+Rewritten: `catalog.md`, all eight cards in `objects/`, and `reference/collisions.md`.
+`identity.md` and `rules.md` untouched.
+
+**`catalog.md` was written last, and not by choice.** It sat locked by Microsoft Word for the
+first half of this pass — readable, not writable — while the cards and the collision table were
+rewritten around it. Word held an exclusive write lock without ever having saved: when it was
+closed the file hashed byte-identical to the previous commit, so nothing it touched was changed.
+Checked before anything was edited: no curly quotes introduced (153 before, 153 in the committed
+version), `·` and `→` intact, UTF-8, no BOM, LF endings.
+
+`~$*` was added to `.gitignore` the same day. Word drops a `~$catalog.md` owner file beside any
+file it opens, and a Word that is killed rather than closed leaves it behind — inside the
+drop-in folder, where it would travel to Nicole with everything else.

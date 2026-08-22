@@ -6,21 +6,23 @@ Drawn: August 18, 2026 · Corrected against the account: August 21, 2026 · Comp
 
 ## This page is not a step on your path
 
-The reading order is `catalog.md` → one card → stop (`rules.md` §5). This page is not in it.
+**Don't read this page instead of a card.** The reading order is `catalog.md` → one card → stop (`rules.md` §5). This page is not in it.
 
-Your lane in `catalog.md` already carries the **Not this one** line for the object you were sent to. That line is what you need. This page exists for a different job: checking the whole set at once, which is what Sadie did in Test A and what nobody doing ordinary work needs to do.
+Your lane in `catalog.md` already carries the **Not this one** line for the object you were sent to. That is what you need.
 
-**If you came here to avoid opening a card, it will not work.** What follows is names and locations. It does not say what a single one of these objects does, what fires it, or what moves when it runs. That is on the cards, one at a time.
+This page does one different job: checking the whole set at once. Sadie did that in Test A. Ordinary work does not need it.
+
+**It will not save you from opening a card.** What follows is names and locations. It does not say what any of these objects does, what fires it, or what moves when it runs.
 
 ---
 
 ## What a row is, and what it is not
 
-A row pairs two names that a person could reach for interchangeably, and says what makes them resemble each other.
+A row pairs two names somebody could reach for interchangeably, and says what makes them resemble each other.
 
-**Shared characters are a fact about the names.** Anyone can count them, and a search box returns what it returns.
+**Shared characters are a fact about the names.** Anyone can count them.
 
-**Which one a person actually grabs is not a fact about the names.** It is a fact about people, and nothing in the account settles it. Lane B of `catalog.md` carries that open question, and Test B settles it by watching one happen.
+**Which one somebody actually grabs is not.** That is a fact about people, and nothing in the account settles it. Lane B of `catalog.md` carries the open question. Test B settles it by watching one happen.
 
 No row carries a verdict. A collision is not a complaint about how anything was named (`rules.md` §6).
 
@@ -73,24 +75,26 @@ The shorter, more natural search returns the bigger pile. The two campaigns in i
 
 ## Rows a character count would miss entirely
 
-Rows **5**, **8** and **11** share no characters. Rows **3** and **12** share every word without either object being a copy of the other.
+Rows **5**, **8** and **11** share no characters at all. Rows **3** and **12** share every word.
 
-- **Row 5** — the two calendars share a screen and a job description. Somebody handed "the appointment calendar" has two true readings and no overlap in the names to warn them.
-- **Row 8** — `Maria` and `Sarah` collide entirely in speech. The mistake is made in a sentence, before anybody opens anything. Both are now outside the boundary, in two different systems, so the sentence has to be resolved before a login is even useful.
-- **Row 11** — `Paperwork Reminder Nurture` has nothing in common with the Lane B name except the one word somebody would actually search for.
-- **Rows 3 and 12** — identical words on two kinds of object, and in both cases **the workflow is what writes the tag**. A search box returns both, and both are a right answer to "the fit call booked thing."
+- **Row 5** — two calendars, one screen, one job description. "The appointment calendar" has two true readings and nothing in the names to warn you.
+- **Row 8** — `Maria` and `Sarah` collide in speech. The mistake is made in a sentence, before anybody opens anything. Both are outside the boundary, in two different systems, so the sentence has to be settled before a login helps.
+- **Row 11** — `Paperwork Reminder Nurture` shares nothing with the Lane B name except the one word somebody would search for.
+- **Rows 3 and 12** — identical words on two kinds of object. In both, the workflow is what writes the tag. Both are a right answer to "the fit call booked thing."
 
-The pairs that share a long prefix — 1, 2, 6, 7, 10, 13 — are caught by looking carefully at a list, because both names are visible at once and the difference is somewhere in them. These five are not. Row 13 is the hardest of the long-prefix group: careful looking separates the two names, but no amount of typing into a search box does.
+The long-prefix pairs — 1, 2, 6, 7, 10, 13 — are caught by reading a list carefully, because both names are visible at once. These five are not.
+
+**Row 13 is the hardest of the long-prefix group.** Careful reading separates the two names. No amount of typing into a search box does.
 
 ---
 
 ## Same name, two objects — three times now
 
-Rows 3, 4 and 12 are one pattern, and Sadie's walk found the third instance of it on August 19 (`/receipts/`, C-4).
+**A name on this map does not reliably belong to one object.** Rows 3, 4 and 12 are the same pattern. The walk found the third instance on August 19 (`/receipts/`, C-4).
 
-A name on this map does not reliably belong to one object. Before changing anything, confirm **which kind of object** you have open, not just which name.
+Confirm **which kind of object** you have open, not just which name.
 
-`VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags` — the `fit call ...` tags were reported in lower case and `Appointment Booked` with capitals, and whether the account treats those as one tag or two is not something the walk answers. Until it settles, this table writes each name as it was reported.
+`VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags` — the `fit call ...` tags were reported in lower case, `Appointment Booked` with capitals. Until that settles, this table writes each name as it was reported.
 
 ---
 
@@ -98,7 +102,9 @@ A name on this map does not reliably belong to one object. Before changing anyth
 
 **Only the walked and named objects are here.** Thirteen pairs drawn from `catalog.md` as of the date at the top.
 
-The account holds objects nobody has walked. Any one of them may collide with a name on this page, and a pair that is not listed here has not been ruled out — it has not been looked for. Sadie's walk was asked what was missing and answered for **her own** builds, not for the sub-account (`/receipts/`, Priority 6), so the unwalked part is larger than the walk implies. See **What has not been walked** in `catalog.md`.
+**A pair that is not listed has not been ruled out. It has not been looked for.** The account holds objects nobody has walked, and any of them may collide with a name on this page.
+
+Sadie's walk was asked what was missing and answered for **her own** builds, not for the sub-account (`/receipts/`, Priority 6). The unwalked part is larger than the walk implies. See **What has not been walked** in `catalog.md`.
 
 **Marks on this page are mixed.** Six objects are LIVE — the four workflows on Lanes A, B, C and D, settled by the August 21 workflow-list captures, plus `SH - Fit Call Attended` and the `Safe Harbor Fit Call` calendar, settled on the walk. Several names here are published but unwalked and claim no mark, because nobody has traced a way in. Two voice AI are outside the boundary and cannot be marked here at all. `catalog.md` carries each one on its lane.
 

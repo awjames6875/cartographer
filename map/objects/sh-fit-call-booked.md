@@ -31,20 +31,22 @@ The third leg stayed open for two days because reading a workflow's steps is not
 
 **This workflow sends nothing.** It has no SMS step and no email step — every action it takes is a tag or a workflow removal · settled: Sadie, August 19, 2026.
 
-That matters because of the sentence that sends people to Lane C. **"Change the confirmation message" does not land here.** The Fit Call calendar is set to auto-confirm and carries its own confirmation message to clients, so the text somebody receives on booking comes from the calendar's screen, not from this workflow · settled: Sadie, August 19, 2026. `objects/safe-harbor-fit-call.md` is that object. Anybody who opens this workflow looking for message wording will find tags and leave without finding it.
+**Sent here to change the confirmation message? It is not in this workflow.** The Fit Call calendar auto-confirms and sends its own confirmation from its own screen · settled: Sadie, August 19, 2026. That object is `objects/safe-harbor-fit-call.md`.
 
 `VERIFY — whether any reminder before the call exists, and whether it comes from the calendar's notification settings or from a step somewhere else · settles by: the calendar's notification settings in the account`
 
-**The tag it writes is not the tag Vo2 reads.** This workflow adds `fit call booked`. **Safe Harbor Consultation Lead Flow Vo2** reads `Appointment Booked` before deciding whether to send a booking reminder · settled: Sadie, August 19, 2026 (VERIFY-2). Both tags exist in the account. Nothing walked so far writes `Appointment Booked` — `VERIFY — what writes the tag Appointment Booked, if anything does · settles by: the account`.
+**This workflow writes `fit call booked`. Vo2 reads `Appointment Booked`.** Two different tags. Both exist in the account · settled: Sadie, August 19, 2026 (VERIFY-2). Nothing walked writes `Appointment Booked`.
 
-That is a record of what each object reads and writes. It is not a finding about whether anything is wrong (`rules.md` §6), and the walk was not asked the question.
+`VERIFY — what writes the tag Appointment Booked, if anything does · settles by: the account`
+
+A record of what each object reads and writes. Not a finding (`rules.md` §6), and the walk was not asked the question.
 
 ---
 
 **Does not hit**
 
-- **The tag named `fit call booked`.** Same words, different kind of object, different screen: this workflow lives under Automation → Workflows, the tag under Settings → Tags. Somebody saying "the fit call booked thing" could mean either one, and they are changed in two different places. This workflow is what writes that tag, which makes the pair easier to confuse rather than harder — `VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags`.
+**Two objects carry this name.** The workflow is at Automation → Workflows. The tag `fit call booked` is at Settings → Tags. Check which one you have open before you change anything.
 
-- **SH - Fit Call No Show** — shares the first 14 characters: `SH - Fit Call `. Both are named for something that happens after a booking exists, and the difference between them is whether the person turned up, which is a word that sits late in both names. They are also linked in fact: No Show removes the tag this workflow adds.
-
-- **The Safe Harbor Fit Call calendar.** The near-miss for anybody sent here about message wording or booking times. This workflow reacts to a booking on that calendar; it does not own the calendar, its availability, its confirmation message, or its link.
+- **The tag `fit call booked`** — not this one. Same words, different screen. This workflow is what writes it. `VERIFY — whether tag names in this account are case-sensitive · settles by: Settings → Tags`
+- **`SH - Fit Call No Show`** — not this one. Same first 14 characters: `SH - Fit Call `. The word that separates them sits at the end. It removes the tag this workflow adds.
+- **The `Safe Harbor Fit Call` calendar** — not this one. Sent here about message wording or booking times? The calendar owns those. This workflow only reacts to a booking on it.

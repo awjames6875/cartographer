@@ -9,21 +9,19 @@ Came here from Lane H of `catalog.md`. Read this card, then open the account. Do
 
 ---
 
-**Maria is outside the boundary. Her footprint is not.**
+**Maria runs on VAPI. VAPI is not GoHighLevel. She is outside this map.**
 
-`identity.md` draws the territory as Safe Harbor's GoHighLevel sub-account and puts the phone system, and anything else that is not GoHighLevel, outside it. Maria runs on VAPI. VAPI is not GoHighLevel. She is outside.
+Her footprint is inside. That means the objects in this sub-account that start her and receive from her — those are GoHighLevel objects and the ordinary rules apply.
 
-What this card maps is the part of her that is inside — the objects in this sub-account that start her and receive from her. Those are GoHighLevel objects, they sit in the territory, and the ordinary rules apply.
-
-What this card does not map, and what does not get added later: what she says on a call, how she is configured, what her script is, or anything else on the VAPI side. That somewhere is not in this folder and not in this account, and the map stops at the line rather than reaching across it.
+**Don't look here for what she says on a call.** Her script, her configuration, anything on the VAPI side — none of it is in this folder or this account. The map stops at the line and does not reach across it (`identity.md`, the territory).
 
 ---
 
 **The mark is declined, not deferred**
 
-Sadie's walk did not change this, and no walk can. **LIVE** requires that the object was found *in the account* (`rules.md` §1). Maria is not in the territory, so a mark she cannot earn is not a mark that is pending — it is one this map has no standing to give.
+**LIVE** requires the object was found *in the account* (`rules.md` §1). Maria is not in the territory. No walk can change that, so the mark is not pending — it is one this map has no standing to give.
 
-**Her footprint can be marked, and the object carrying it now has a name.** It is a step inside **Safe Harbor Consultation Lead Flow Vo2**, and that workflow has its own card and its own open mark.
+Her footprint can be marked. It is a step inside **Safe Harbor Consultation Lead Flow Vo2**, which has its own card.
 
 ---
 
@@ -38,9 +36,9 @@ Every line here is about a consequence **inside the sub-account**. What Maria do
 - The number she dials out from is named in that workflow's confirmation email to the contact · settled: Sadie, August 19, 2026 · [phone redacted] — read it off the step, or from `/receipts/`
 - **The name `Maria` does appear inside this sub-account** — in message copy inside that workflow, which tells the team and the contact that she is calling · settled: Sadie, August 19, 2026
 
-**The two lines that were the whole card are now answered.** What starts her, and what comes back. Both live in one workflow, which means everything a person can change about Maria from inside GoHighLevel is on one screen.
+**Everything changeable about Maria from inside GoHighLevel is on one screen** — the Vo2 workflow. What starts her and what comes back both live there.
 
-**One thing about that step is reported two ways, and the map does not pick.** Sadie described the mechanism generally as a VAPI "Create a Call" action, available from the Add action panel once VAPI is connected in Settings → Integrations. Her walk-through of the workflow itself described the step as a VAPI outbound call implemented as a custom webhook to the VAPI API. Those are not the same mechanism, and which one is in this workflow decides whether changing it is a form field or a request body.
+**That step is reported two ways and the map does not pick between them.** Sadie described it generally as a VAPI "Create a Call" action, from the Add action panel once VAPI is connected in Settings → Integrations. Walking the workflow, she described it as a custom webhook to the VAPI API. Those are different mechanisms — one is a form field, the other a request body.
 
 `VERIFY — whether the step in Vo2 is a native VAPI action or a custom webhook · settles by: opening the step in the account`
 
@@ -54,6 +52,7 @@ Still open:
 
 **Does not hit**
 
-- **Sarah** — the other voice AI. **Both are now outside this map's boundary, and they are outside it in two different ways** · settled: Sadie, August 19, 2026 (C-9). Maria runs on VAPI — a different product entirely. Sarah runs on GoHighLevel, in the **Safe Harbor Behavioral Health** sub-account — the right product, the wrong territory. The old way of telling them apart was direction, outbound against inbound, and that still holds. It is no longer the difference that costs the most. Somebody who reaches for the wrong one is not opening the wrong screen; they are opening the wrong system, and now there are two wrong systems to land in.
+**Two voice AI, two different wrong systems to land in.**
 
-- **The workflow step that starts her.** This is the near-miss for *"Maria said the wrong thing."* Two different things are wrong-able and they live in two places. Who she calls, when, and on what condition is set in the Vo2 step, in this sub-account. What she says once the call connects is set on the VAPI side, outside this map. Changing the step changes the first and leaves the second running exactly as it was. **The step now has an address, which makes this near-miss easier to reach — and no less wrong.**
+- **Sarah** — not this one. The other voice AI, also outside this map · settled: Sadie, August 19, 2026 (C-9). Maria runs on VAPI, a different product. Sarah runs on GoHighLevel in the **Safe Harbor Behavioral Health** sub-account. Outbound against inbound still tells them apart. It is no longer the difference that costs the most.
+- **The workflow step that starts her** — not the same thing as Maria. Sent here because *"Maria said the wrong thing"*? The step sets who she calls, when, and on what condition. What she says once the call connects is set in VAPI, outside this map. Changing the step leaves what she says running exactly as it was.

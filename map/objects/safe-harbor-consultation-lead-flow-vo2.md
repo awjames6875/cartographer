@@ -33,22 +33,22 @@ The third leg stayed open for two days because reading a workflow's steps is not
 - **Reads the tag `Appointment Booked`** to decide whether to send a booking reminder · settled: Sadie, August 19, 2026 (VERIFY-2, settled)
 - Adds the tag `Missing Phone Number` on the branch where no phone number is present, and emails named users · settled: Sadie, August 19, 2026
 
-**VERIFY-2 settled, and it opened a longer question.** This workflow *reads* `Appointment Booked`. Every tag-writing object walked on this map writes a different one — `fit call booked`, `fit call nurture`, `fit call no show`, `fit call attended`. Nothing walked so far writes `Appointment Booked`.
+**This workflow reads the tag `Appointment Booked`. Nothing walked on this map writes that tag.** The other objects write `fit call booked`, `fit call nurture`, `fit call no show` and `fit call attended` · settled: Sadie, August 19, 2026.
 
 `VERIFY — what writes the tag Appointment Booked, if anything does · settles by: the account`
 
-That line is an observation about the walked set, not a verdict about this workflow. Six objects have been read; the account holds more. The map records what each object reads and writes and stops there (`rules.md` §6).
+Six objects have been read. The account holds more. This is a record of what was read, not a finding (`rules.md` §6).
 
-Asked separately whether anything still used the older tag, the walk answered **"NO"** — while the same walk recorded this workflow reading it. Both answers are on the record in `/receipts/`. The map does not reconcile them.
+The walk was also asked whether anything still uses the older tag and answered **"NO"** — in the same walk that recorded this workflow reading it. Both answers are in `/receipts/`. The map does not pick between them.
 
-**Tag capitalisation is not settled.** `Appointment Booked` was reported with capitals; the tags the other workflows write were reported in lower case. Whether the account treats those as one tag or two is not something this walk answers. `VERIFY — whether tag names here are case-sensitive · settles by: Settings → Tags`
+`Appointment Booked` was reported with capitals. The other tags were reported in lower case. `VERIFY — whether tag names here are case-sensitive · settles by: Settings → Tags`
 
 ---
 
 **Does not hit**
 
-- **SH - Fit Call Nurture (Alt Days) — settled, and the answer is no.** This card previously asked whether the nurture sat downstream of this workflow. It does not. The nurture starts when the tag `fit call nurture` is added to a contact, and this workflow never adds that tag · settled: Sadie, August 19, 2026. Somebody sent here to change "the first messages a new lead gets" is in the right place; somebody sent here to change the nurture texts is not, and Lane B is where they belong.
+**The full name of this one is `Safe Harbor Consultation Lead Flow Vo2`. Read it to the end.**
 
-- **An earlier version of this same flow, if one is still in the list.** Still open. The name ends in **Vo2**, which implies something came before it, and Sadie was not asked whether a predecessor survives. `VERIFY — is there an earlier Safe Harbor Consultation Lead Flow in the list · settles by: the workflow list in the account`. If it is there, both answer to the same words in a search box, and an older copy looks exactly as correct as a current one at a glance.
-
-- **GOLDEN COPY - Lead Flow Vo2** — shares `Lead Flow Vo2` with this name, reported a backup draft that was never published. It sorts under G rather than S, so a search box returns both and a scroll down the list does not. Named in `catalog.md` under **Named, and nothing flowing through**.
+- **`SH - Fit Call Nurture (Alt Days)`** — not this one. This workflow never adds the tag `fit call nurture`, and that tag is the only thing that starts the nurture · settled: Sadie, August 19, 2026. Sent here to change the nurture texts? That is Lane B.
+- **`GOLDEN COPY - Lead Flow Vo2`** — not this one. Shares `Lead Flow Vo2`. Reported a backup draft, never published. It sorts under G, not S — a search returns both, scrolling the list does not.
+- **An earlier version of this flow, if one is still in the list.** The name ends in `Vo2`. Nobody was asked whether something came before it. An older copy looks exactly like a current one. `VERIFY — is there an earlier Safe Harbor Consultation Lead Flow in the list · settles by: the workflow list in the account`

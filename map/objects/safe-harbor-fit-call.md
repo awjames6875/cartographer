@@ -23,11 +23,13 @@ All three settled: Sadie, August 19, 2026.
 
 **`safe-harbor-fit-call` is the live slug.** `safeharbor-fit-call` returns a 404 · settled: Sadie, August 19, 2026 — she opened the calendar, read the link off it, and tested both spellings in a browser.
 
-This was the highest-priority open line on the map, and the reason it mattered stands even now it is closed: Safe Harbor's own written documentation disagreed with itself, so **at least one document still in circulation carries the dead spelling**. A link copied out of a document rather than out of the account may still be the 404.
+**Don't copy a booking link out of a document.** Safe Harbor's written documentation disagreed with itself, so at least one document still in circulation carries the dead spelling. Read the link off the calendar.
 
-The two walked workflows that send the link — **Safe Harbor Consultation Lead Flow Vo2** and **SH - Fit Call No Show** — both carry the live spelling · settled: Sadie, August 19, 2026. Anywhere else it appears has not been checked: `VERIFY — which other objects, documents, or messages carry a booking link, and which spelling each uses · settles by: the account, and wherever Safe Harbor keeps its written documentation`
+Both walked workflows that send the link — **Safe Harbor Consultation Lead Flow Vo2** and **SH - Fit Call No Show** — carry the live spelling · settled: Sadie, August 19, 2026. Nowhere else has been checked.
 
-**A correction to this card's own reasoning.** It previously said a complete booking URL carries the sub-account's location ID, and redacted whole links for that reason. The live link is of the form `.../widget/bookings/<slug>` and carries no location ID · settled: Sadie, August 19, 2026. The slugs-only habit stays because the slug is the part that answers the question, but the reason written here was wrong and the account is what corrected it (`rules.md` §4).
+`VERIFY — which other objects, documents, or messages carry a booking link, and which spelling each uses · settles by: the account, and wherever Safe Harbor keeps its written documentation`
+
+**This card had its own reasoning corrected.** It said a booking URL carries the sub-account's location ID, and redacted whole links for that reason. It does not — the live link is `.../widget/bookings/<slug>` · settled: Sadie, August 19, 2026. Slugs only, because the slug is the part that answers the question (`rules.md` §4).
 
 ---
 
@@ -42,9 +44,9 @@ The two walked workflows that send the link — **Safe Harbor Consultation Lead 
 
 **The confirmation message lives here, not in a workflow** · settled: Sadie, August 19, 2026.
 
-This is the correction that matters most for anybody routed to Lane C. `SH - Fit Call Booked` sends nothing at all — it only moves tags. Somebody told to "change the confirmation message" who opens that workflow will find no message in it. The wording is on this calendar's screen.
+Sent here to change the confirmation message? This is the right screen. `SH - Fit Call Booked` sends nothing at all — it only moves tags.
 
-The confirmation message also tells the client a confirmation text follows. What sends that text is not on the walked map: `VERIFY — what sends the confirmation text the calendar's message promises · settles by: this calendar's notification settings, and the account`
+The message tells the client a confirmation text follows. What sends that text is not on the walked map. `VERIFY — what sends the confirmation text the calendar's message promises · settles by: this calendar's notification settings, and the account`
 
 `VERIFY — whether a reminder goes out before the call, and whether it comes from this calendar's notification settings or from somewhere else · settles by: this calendar's notification settings in the account`
 
@@ -56,8 +58,8 @@ The confirmation message also tells the client a confirmation text follows. What
 
 **Does not hit**
 
-- **Schedule an Appointment** — the other calendar, on the same screen. The words "the booking calendar" and "the appointment calendar" describe either one. It is reported as do-not-touch, and workflows are reported to filter around it, which puts its name *inside* workflow steps that have nothing else to do with it. That appearance is a filter excluding it, not a connection. Named in `catalog.md` under **Named, and nothing flowing through**.
+**The full name of this one is `Safe Harbor Fit Call`. There are two calendars on that screen.**
 
-- **The workflow carrying the text the link was in.** Still the near-miss for *"the link in the text goes to the wrong place"* — but the shape of it has changed now VERIFY-1 is settled. The link is correct in both walked workflows, so a wrong link found in a message did not come from either of them, and changing this calendar will not fix a stale link already typed somewhere else. Both spellings differ by one hyphen on screen.
-
-- **Sarah, and any booking made from a call.** Sarah is configured in a different sub-account and does not create contacts in this one · settled: Sadie, August 19, 2026 (C-9). `VERIFY — whether Maria books onto this calendar, and whether a booking she makes is distinguishable from one a person made · settles by: the account`
+- **`Schedule an Appointment`** — not this one. The other calendar, same screen. "The booking calendar" and "the appointment calendar" both fit either. Reported do-not-touch. Workflows filter around it, so its name appears inside steps that have nothing else to do with it — that is a filter excluding it, not a connection.
+- **The workflow the link was sent in** — not this one. Both walked workflows carry the live slug · settled: Sadie, August 19, 2026. A wrong link in a message did not come from either. Changing this calendar does not fix a link already typed somewhere else.
+- **Sarah, and any booking made from a call** — not this one. She is in a different sub-account and does not create contacts here · settled: Sadie, August 19, 2026 (C-9). `VERIFY — whether Maria books onto this calendar, and whether a booking she makes is distinguishable from one a person made · settles by: the account`

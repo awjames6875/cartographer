@@ -28,18 +28,18 @@ The third leg stayed open for two days because reading a workflow's steps is not
 - Every message carries the Fit Call booking link, slug `safe-harbor-fit-call` · settled: Sadie, August 19, 2026
 - Removes the tag `fit call nurture` from the contact after the last message, so a contact who finishes does not re-enter on that tag · settled: Sadie, August 19, 2026
 
-**If you were sent here to change timing, three things decide what else moves.**
+**Sent here to change the timing? Three things move with it.**
 
-**One — the name is currently true, and it will not stay true by itself.** The wait steps are 2 days apart, which is what `Alt Days` claims · settled: Sadie, August 19, 2026. Change the spacing and the name starts describing something the workflow no longer does. The name will not update itself.
+**The name goes stale.** The wait steps are 2 days apart, which is what `Alt Days` says · settled: Sadie, August 19, 2026. Change the spacing and the name describes something this workflow no longer does. The name does not update itself.
 
-**Two — the length is 15 messages, not the spacing alone.** Widening the gaps stretches the whole sequence past four weeks. The last message is written as a last message, and it arrives whenever the maths puts it.
+**The sequence is 15 messages, not just the spacing.** Widen the gaps and the whole thing stretches past four weeks. The last message is written as a last message. It arrives whenever the maths puts it.
 
-**Three — this sequence stops when a contact books, and that stop lives in other workflows, not in this one.** Two objects reach in and pull contacts out:
+**The stop lives in two other workflows.** Neither is on screen while you have this one open, and editing this one does not change either:
 
-- **SH - Fit Call Booked** removes the contact from this workflow and removes the `fit call nurture` tag · settled: Sadie, August 19, 2026
-- **SH - Fit Call Attended** does the same · settled: Sadie, August 19, 2026
+- **`SH - Fit Call Booked`** removes the contact from this workflow and removes the `fit call nurture` tag · settled: Sadie, August 19, 2026
+- **`SH - Fit Call Attended`** does the same · settled: Sadie, August 19, 2026
 
-Per `rules.md` §3 both belong in **Hits** here as well as on their own cards, because all three touch the same contact. Editing this workflow does not change either of them, and neither of them appears when you have this one open on screen.
+Both are in **Hits** here and on their own cards, because all three touch the same contact (`rules.md` §3).
 
 **A contact can come back into this sequence after missing a call.** `SH - Fit Call No Show` waits 2 days, checks whether the contact has re-booked, and on the branch where they have not, adds `fit call nurture` again — which starts this workflow over from message one · settled: Sadie, August 19, 2026.
 
@@ -47,18 +47,22 @@ Per `rules.md` §3 both belong in **Hits** here as well as on their own cards, b
 
 **Does not hit**
 
-**Five of them now, not two.** Sadie's walk found two published nurture campaigns the map did not have (`/receipts/`, C-7), and the August 21 workflow-list captures found a third object closer than either:
+**The full name of this one is `SH - Fit Call Nurture (Alt Days)`, brackets included. Read the name to the end before you touch anything.**
 
-- **SH - Fit Call Nurture Trigger (24hr Check)** — shares the first **22 characters**: `SH - Fit Call Nurture `. The two names are identical up to the bracket. Published, no card · settled by workflow list captures, Sadie, Aug 21 2026. Nobody has walked it, so what it does, what starts it and whether it sends anything are all unread — `VERIFY — what this workflow does and whether it touches this sequence · settles by: opening it in the account`.
-- **SH - Fit Call No Show** — shares the first 15 characters: `SH - Fit Call N`. A search box typed that far returns both.
-- **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `.
-- **SH - Assessment Booking Nurture** — shares the first 5, `SH - `, and the word **Nurture**. Found and published · settled: Sadie, August 19, 2026. No card yet.
-- **Paperwork Reminder Nurture** — shares no prefix at all, and the word **Nurture**. Found and published · settled: Sadie, August 19, 2026. No card yet.
+**Don't search `nurture`.** Five things come back. Three of them send texts. One is the tag that starts this workflow. One nobody has opened.
 
-**The word `nurture` is the trap, not the prefix.** Somebody handed *"change the nurture texts"* types `nurture` into the search box, and that returns all five names above plus the tag `fit call nurture` — six results, four of them workflows. Typing `SH - Fit Call N` returns three. The shorter, more natural search is the one that returns the bigger pile.
+**Don't search `SH - Fit Call Nurture` either.** Two things come back. They are identical for 22 characters.
 
-**And the longer search does not save you either.** `SH - Fit Call Nurture ` returns this workflow and the Trigger, and nothing in those 22 shared characters says which one is the sequence of 15 messages. The bracket at the end is the whole difference.
+- **`SH - Fit Call Nurture (Alt Days)`** — this one. 15 texts, 2 days apart.
+- **`SH - Fit Call Nurture Trigger (24hr Check)`** — not this one. Published, no card · settled by workflow list captures, Sadie, Aug 21 2026. Nobody has opened it. `VERIFY — what it does, and whether it touches this sequence · settles by: opening it in the account`
+
+The brackets are the only difference.
+
+**Four more names sit close. None of them is this workflow.**
+
+- **`SH - Fit Call No Show`** — same first 15 characters. It re-adds the tag that starts this workflow · settled: Sadie, August 19, 2026
+- **`SH - Fit Call Booked`** — same first 14. It removes the tag that starts this workflow · settled: Sadie, August 19, 2026
+- **`SH - Assessment Booking Nurture`** — a different campaign. Shares `SH - ` and the word `Nurture`. Published, no card · settled: Sadie, August 19, 2026
+- **`Paperwork Reminder Nurture`** — a different campaign. Shares only the word `Nurture`. Published, no card · settled: Sadie, August 19, 2026
 
 `VERIFY — which of these gets grabbed in place of this workflow · settles by: Test B — the run itself, and which name Nicole opens first`
-
-Until then all five are live risks. Confirm the name at the top of the screen — including what is inside the bracket — before touching anything.
