@@ -71,6 +71,6 @@ The map can be wrong; the account cannot. It was true on the day it was walked, 
 
 Drawn **August 17–18, 2026**. Corrected against the live account **August 21, 2026**, from a walk run on **August 19, 2026** by the VA who works inside it. Nine corrections came back and all nine are applied here.
 
-**The marks are not uniform, and that is deliberate.** Some objects are confirmed LIVE with a date and a name. Some are found, with a way in, but nobody read whether they are switched on — those say so. Two objects turned out to live outside this map's territory and carry no mark at all.
+**The marks are not uniform, and that is deliberate.** Six objects are confirmed LIVE, each with a date and a name behind it. Two turned out to live outside this map's territory and carry no mark at all. Some names in `catalog.md` are switched on in the account but nobody has walked them — those claim no mark, and say so.
 
 Every card carries its own date, which is the last day anybody checked that particular thing.
