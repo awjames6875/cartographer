@@ -28,7 +28,7 @@ No row carries a verdict. A collision is not a complaint about how anything was 
 
 ## The table
 
-Twelve pairs. Rows 10–12 were added after Sadie's walk on August 19, 2026, which found two published campaigns and one tag the map did not have.
+Thirteen pairs. Rows 10–12 were added after Sadie's walk on August 19, 2026, which found two published campaigns and one tag the map did not have. **Row 13 was added on August 21, 2026** from the workflow-list captures, and it has the longest shared prefix on the page.
 
 | # | The pair | Where each lives | What they share | Which is which |
 |---|---|---|---|---|
@@ -44,6 +44,7 @@ Twelve pairs. Rows 10–12 were added after Sadie's walk on August 19, 2026, whi
 | 10 | `SH - Fit Call Nurture (Alt Days)` ↔ `SH - Assessment Booking Nurture` | both: Automation → Workflows | first 5 — `SH - ` — **plus the word `Nurture` in both** | Lane B ↔ found and published, not walked |
 | 11 | `SH - Fit Call Nurture (Alt Days)` ↔ `Paperwork Reminder Nurture` | both: Automation → Workflows | no shared prefix at all — **only the word `Nurture`** | Lane B ↔ found and published, not walked |
 | 12 | `SH - Fit Call Attended` (workflow) ↔ `fit call attended` (tag) | Automation → Workflows ↔ Settings → Tags | every word of the tag's name — **and the workflow is what writes the tag** | a sequence that runs ↔ a label that sits on a contact |
+| 13 | `SH - Fit Call Nurture (Alt Days)` ↔ `SH - Fit Call Nurture Trigger (24hr Check)` | both: Automation → Workflows, adjacent under S | first **22** characters — `SH - Fit Call Nurture ` — **the longest shared prefix on this page.** The names are identical up to the bracket | Lane B ↔ published, not walked |
 
 **Every "settled" in the table above** was settled by Sadie on August 19, 2026, and is dated in `/receipts/`. Written once here rather than five times in the cells.
 
@@ -51,17 +52,20 @@ Twelve pairs. Rows 10–12 were added after Sadie's walk on August 19, 2026, whi
 
 ## The word `nurture` is the sharpest collision on this page
 
-Rows 1, 10 and 11 are the same trap approached three ways, and a character count finds only the first of them.
+Rows 1, 10, 11 and 13 are the same trap approached four ways, and a character count finds only two of them.
 
 Somebody handed *"change the nurture texts"* does not type `SH - Fit Call N`. They type **`nurture`**. That returns:
 
 - `SH - Fit Call Nurture (Alt Days)` — Lane B, the one they probably want
+- `SH - Fit Call Nurture Trigger (24hr Check)` — published, not walked, and identical to the Lane B name for 22 characters
 - `SH - Assessment Booking Nurture` — published, not walked
 - `Paperwork Reminder Nurture` — published, not walked
 - the tag `fit call nurture` — which is what *starts* Lane B
 - and depending on the search, `SH - Fit Call No Show`, which re-adds that tag
 
-**Three of those send messages to contacts.** The shorter, more natural search returns the bigger pile, and the two campaigns in it were invisible to this map until August 19.
+The shorter, more natural search returns the bigger pile. The two campaigns in it were invisible to this map until August 19; the Trigger was invisible until August 21.
+
+**Row 13 is the one no search narrows.** Every other pair here is separated by typing more characters. These two are not — `SH - Fit Call Nurture ` returns both, and what tells them apart is what sits inside the bracket at the end of the name. Confirming the name at the top of the screen means reading it to the end.
 
 `VERIFY — which of these gets grabbed in place of the Lane B nurture · settles by: Test B — the run itself, and which name Nicole opens first`
 
@@ -76,7 +80,7 @@ Rows **5**, **8** and **11** share no characters. Rows **3** and **12** share ev
 - **Row 11** — `Paperwork Reminder Nurture` has nothing in common with the Lane B name except the one word somebody would actually search for.
 - **Rows 3 and 12** — identical words on two kinds of object, and in both cases **the workflow is what writes the tag**. A search box returns both, and both are a right answer to "the fit call booked thing."
 
-The pairs that share a long prefix — 1, 2, 6, 7, 10 — are caught by looking carefully at a list. These five are not.
+The pairs that share a long prefix — 1, 2, 6, 7, 10, 13 — are caught by looking carefully at a list, because both names are visible at once and the difference is somewhere in them. These five are not. Row 13 is the hardest of the long-prefix group: careful looking separates the two names, but no amount of typing into a search box does.
 
 ---
 
@@ -92,10 +96,10 @@ A name on this map does not reliably belong to one object. Before changing anyth
 
 ## What this table does not cover
 
-**Only the walked and named objects are here.** Twelve pairs drawn from `catalog.md` as of the date at the top.
+**Only the walked and named objects are here.** Thirteen pairs drawn from `catalog.md` as of the date at the top.
 
 The account holds objects nobody has walked. Any one of them may collide with a name on this page, and a pair that is not listed here has not been ruled out — it has not been looked for. Sadie's walk was asked what was missing and answered for **her own** builds, not for the sub-account (`/receipts/`, Priority 6), so the unwalked part is larger than the walk implies. See **What has not been walked** in `catalog.md`.
 
-**Marks on this page are mixed.** Two objects are LIVE — `SH - Fit Call Attended` and the `Safe Harbor Fit Call` calendar. Four workflows are found with a way in but their published state unconfirmed. Two voice AI are outside the boundary and cannot be marked here at all. `catalog.md` carries each one on its lane.
+**Marks on this page are mixed.** Six objects are LIVE — the four workflows on Lanes A, B, C and D, settled by the August 21 workflow-list captures, plus `SH - Fit Call Attended` and the `Safe Harbor Fit Call` calendar, settled on the walk. Several names here are published but unwalked and claim no mark, because nobody has traced a way in. Two voice AI are outside the boundary and cannot be marked here at all. `catalog.md` carries each one on its lane.
 
 Where this page and the account disagree, the account is right (`rules.md` §4), and the correction is dated in `/receipts/`.

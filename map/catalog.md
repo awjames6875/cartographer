@@ -75,16 +75,19 @@ A contact moves through this account in a rough order. Each lane below is one mo
 
 **The way in is a tag.** This sequence starts when `fit call nurture` is added to a contact, and nothing else starts it · settled: Sadie, August 19, 2026.
 
-**Not this one — four of them now, and the trap is the word, not the prefix:**
+**Not this one — five of them now, and the trap is the word, not the prefix:**
 
+- **SH - Fit Call Nurture Trigger (24hr Check)** — workflow · published, no card · settled by workflow list captures, Sadie, Aug 21 2026. Shares the first **22 characters** — `SH - Fit Call Nurture ` — **the closest name to this one anywhere on the map.** Nobody has walked it, so what it does, what starts it and whether it sends anything are all unread.
 - **SH - Fit Call No Show** — shares the first 15 characters: `SH - Fit Call N`
 - **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `
 - **SH - Assessment Booking Nurture** — found and published, no card · settled: Sadie, August 19, 2026. Shares `SH - ` and the word **Nurture**
 - **Paperwork Reminder Nurture** — found and published, no card · settled: Sadie, August 19, 2026. Shares no prefix, and the word **Nurture**
 
-Somebody handed *"change the nurture texts"* types **`nurture`** into the search box. That returns all four names above plus the tag `fit call nurture` — five results, three of them workflows that send messages. Typing `SH - Fit Call N` returns two. **The shorter, more natural search is the one that returns the bigger pile.**
+Somebody handed *"change the nurture texts"* types **`nurture`** into the search box. That returns all five names above plus the tag `fit call nurture` — six results, four of them workflows. Typing `SH - Fit Call N` returns three. **The shorter, more natural search is the one that returns the bigger pile — and neither search separates the two `SH - Fit Call Nurture` workflows from each other.**
 
-The last two were found by Sadie's walk and the map did not have them (`/receipts/`, C-7). They are in **Found and published, not walked**, below.
+`VERIFY — what SH - Fit Call Nurture Trigger (24hr Check) does, what starts it, and whether it touches this sequence · settles by: opening it in the account`
+
+Two campaigns were found by Sadie's walk and the map did not have them (`/receipts/`, C-7). The Trigger was found in the workflow-list captures on August 21 and the map did not have that either. All three are in **Found and published, not walked**, below.
 
 `VERIFY — which of these gets grabbed in place of the nurture · settles by: Test B — the run itself, and which name Nicole opens first`
 
@@ -264,10 +267,16 @@ No cards — a card's job is to prepare somebody to change a thing, and nothing 
 
 - **Paperwork Reminder Nurture** — campaign · found and published · settled: Sadie, August 19, 2026
 - **SH - Assessment Booking Nurture** — campaign · found and published · settled: Sadie, August 19, 2026
+- **SH - Fit Call Nurture Trigger (24hr Check)** — workflow · published · settled by workflow list captures, Sadie, Aug 21 2026
+- **VAPI Transcript to Apollo** — workflow · published · settled by workflow list captures, Sadie, Aug 21 2026
 
 `VERIFY — what puts a contact into each of these, and what each one sends · settles by: the account`
 
-**Both collide with Lane B on the word `nurture`.** Read Lane B's **Not this one** before assuming which nurture somebody meant. These two were invisible to this map until the walk, and they are the reason Lane B's collision set went from two names to four.
+**The first three collide with Lane B on the word `nurture`.** Read Lane B's **Not this one** before assuming which nurture somebody meant. The two campaigns were invisible to this map until the walk; the Trigger was invisible until the August 21 captures. Between them they took Lane B's collision set from two names to five.
+
+**`SH - Fit Call Nurture Trigger (24hr Check)` is the closest name on this map to a walked object** — identical to the Lane B workflow for 22 characters. It is named here and in `reference/collisions.md` row 13, and it has no card. `VERIFY — what it does, what starts it, and whether it touches the Lane B sequence · settles by: opening it in the account`
+
+**`VAPI Transcript to Apollo` is named and nothing more.** Published, uncarded, and not walked. Nothing on this map says what it reads, what it writes, or what starts it, and no relationship to any other object here has been traced — including to anything on `objects/maria.md`, which is the other place the word `VAPI` appears. The shared word is a fact about the names and nothing else has been looked at. `VERIFY — what this workflow does and what, if anything, it connects to · settles by: opening it in the account`
 
 ---
 
@@ -311,9 +320,13 @@ The fork clause each of them carried named in advance the evidence that would mo
 
 **Walked and carded — eight objects:** five workflows (Lanes A, B, C, D, E), one calendar (Lane G), and two voice AI (Lane H). **Both voice AI turned out to sit outside the boundary**, so six of the eight cards describe objects inside this sub-account and two describe objects next to it.
 
-**Named but not carded:** the tags in Lane F · the two campaigns under **Found and published, not walked** · the five objects under **Named, and nothing flowing through**.
+**Named but not carded:** the tags in Lane F · the four objects under **Found and published, not walked** · the five objects under **Named, and nothing flowing through**.
 
 **Everything else in this sub-account: not walked.**
+
+**One item is flagged in the account and nobody has read it.** The workflow list carries a **`Needs review (1)`** tab with a single item in it · settled by workflow list captures, Sadie, Aug 21 2026. The tab and its count are what the capture shows; the tab was not opened, so what sits inside it is unknown. It is not on this page under any name, because it does not yet have one. `VERIFY — what the single item in the Needs review tab is · settles by: opening that tab in Parent Intake`
+
+**The account holds substantially more published workflows than this map has walked**, and the exact number is open — the August 21 captures cross sub-accounts, and no single-account list has been read end to end (`/receipts/`, Aug 21). Counting across those captures counts several accounts at once.
 
 **The walk did not sweep the account, and its own last answer says so.** Sadie was asked whether anything live in this account was missing from the list. The answer was that everything **she had built** was covered. That is a claim about her own work, not about the sub-account — objects built by somebody else, inherited, or made before she arrived were not in scope of that answer · `/receipts/`, Priority 6.
 

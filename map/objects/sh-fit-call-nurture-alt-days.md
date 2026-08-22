@@ -47,15 +47,18 @@ Per `rules.md` §3 both belong in **Hits** here as well as on their own cards, b
 
 **Does not hit**
 
-**Four of them now, not two.** Sadie's walk found two published nurture campaigns the map did not have (`/receipts/`, C-7):
+**Five of them now, not two.** Sadie's walk found two published nurture campaigns the map did not have (`/receipts/`, C-7), and the August 21 workflow-list captures found a third object closer than either:
 
+- **SH - Fit Call Nurture Trigger (24hr Check)** — shares the first **22 characters**: `SH - Fit Call Nurture `. The two names are identical up to the bracket. Published, no card · settled by workflow list captures, Sadie, Aug 21 2026. Nobody has walked it, so what it does, what starts it and whether it sends anything are all unread — `VERIFY — what this workflow does and whether it touches this sequence · settles by: opening it in the account`.
 - **SH - Fit Call No Show** — shares the first 15 characters: `SH - Fit Call N`. A search box typed that far returns both.
 - **SH - Fit Call Booked** — shares the first 14: `SH - Fit Call `.
 - **SH - Assessment Booking Nurture** — shares the first 5, `SH - `, and the word **Nurture**. Found and published · settled: Sadie, August 19, 2026. No card yet.
 - **Paperwork Reminder Nurture** — shares no prefix at all, and the word **Nurture**. Found and published · settled: Sadie, August 19, 2026. No card yet.
 
-**The word `nurture` is the trap, not the prefix.** Somebody handed *"change the nurture texts"* types `nurture` into the search box, and that returns all four names above plus the tag `fit call nurture` — five results, three of them workflows that send messages. Typing `SH - Fit Call N` returns two. The shorter, more natural search is the one that returns the bigger pile.
+**The word `nurture` is the trap, not the prefix.** Somebody handed *"change the nurture texts"* types `nurture` into the search box, and that returns all five names above plus the tag `fit call nurture` — six results, four of them workflows. Typing `SH - Fit Call N` returns three. The shorter, more natural search is the one that returns the bigger pile.
+
+**And the longer search does not save you either.** `SH - Fit Call Nurture ` returns this workflow and the Trigger, and nothing in those 22 shared characters says which one is the sequence of 15 messages. The bracket at the end is the whole difference.
 
 `VERIFY — which of these gets grabbed in place of this workflow · settles by: Test B — the run itself, and which name Nicole opens first`
 
-Until then all four are live risks. Confirm the name at the top of the screen before touching anything.
+Until then all five are live risks. Confirm the name at the top of the screen — including what is inside the bracket — before touching anything.
