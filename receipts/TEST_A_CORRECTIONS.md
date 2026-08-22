@@ -115,3 +115,86 @@ questions, not the other way around.
   itself (C-2). Both halves are kept on record rather than reconciled.
 - One object was changed during the walk (C-3, the daycare workflow). The map records
   the state at the time of the walk and says so.
+
+---
+
+## Corrections Log
+
+Corrections arriving after the Aug 19 walk. Same test, later evidence, logged on the date
+it came in. The C-1 through C-9 entries above are the walk itself and stay as they were.
+
+### 2026-08-21 — Test A, Sadie workflow-list captures
+
+**The evidence:** `receipts/workflow-list-aug20-1.png` and `receipts/workflow-list-aug20-2.png`,
+received August 21, 2026. *The filenames read `aug20` and are wrong — they were typed by hand
+on arrival, not produced by the source.* The captures are from August 21. The files are not
+being renamed after the fact; the names stand and the error is recorded here, because quietly
+correcting a receipt is the thing this folder exists to not do.
+
+This is the workflow list — the screen `rules.md` §2 already names as what settles a published
+state.
+
+#### What the captures settled
+
+- **Four marks move to LIVE.** `Safe Harbor Consultation Lead Flow Vo2`,
+  `SH - Fit Call Nurture (Alt Days)`, `SH - Fit Call Booked` and `SH - Fit Call No Show` all
+  read **Published**. Each already carried two of the three legs `rules.md` §1 wants for LIVE,
+  settled on the Aug 19 walk; this screen is the third. All four rows are legible in capture 1.
+  Applied to the four cards and to `catalog.md`.
+- **"Fit Call Nurture" is two workflows** — `SH - Fit Call Nurture Trigger (24hr Check)` and
+  `SH - Fit Call Nurture (Alt Days)`, both reading Published. The Trigger has no card. Lane B's
+  named trap is the word *nurture*, and this is one more object carrying it.
+- **`VAPI Transcript to Apollo`** reads Published and is not in `catalog.md`. Status TBD.
+- **`Needs review (1)`** tab carries one item, unidentified.
+- **`Paperwork Reminder Nurture`** — already reclassified by C-7 (Aug 19). No action needed.
+  Line originated from an older reading, kept for trail.
+
+#### The count is withdrawn
+
+An earlier reading of these captures put the live workflow count at **8**. That number is wrong
+and the reasoning behind it was wrong. Both are struck rather than amended.
+
+What stands: **the walked set is 8.** The account holds substantially more published workflows
+than that. The exact number is **unsettled** — the captures cross sub-accounts, and no
+single-account list has been read end to end.
+
+`VERIFY — how many published workflows the Parent Intake sub-account holds · settles by: that
+sub-account's workflow list alone, read end to end`
+
+#### Daycare Affiliation Tagging — contradicted, not resolved
+
+- **C-3 (Aug 19) says:** Sadie found the workflow published and **switched it off during the walk**.
+- **The Aug 21 capture shows:** `Daycare Affiliation Tagging`, in the list, reading **Published**.
+
+Both are on the record. This log does not resolve which is true and does not name a cause —
+`rules.md` §6 bans the verdict. An earlier reading of these captures reported no daycare workflow
+in the live list at all; that reading was wrong and is struck.
+
+`VERIFY — whether Daycare Affiliation Tagging is published today, and what moved it between
+Aug 19 and Aug 21 · settles by: the Parent Intake workflow list, plus the workflow's own history`
+
+#### The captures cross sub-accounts — C-9 recurring
+
+The panels are not all one account. Alongside the Parent Intake objects, the captures show
+`Safe Harbor Client Welcome`, `Post Session Follow Up`, `Safe Harbor Session Reminders`,
+`GG - Day Intake Nurture`, and a further set including `Student Check-in`, `QR Check-in` and
+`Child Contacts`.
+
+**Counting across these captures counts several accounts at once** — which is the most likely
+source of the withdrawn 8.
+
+This is **C-9 recurring**. The same trap that put Sarah in the wrong sub-account: right product,
+familiar screens, different account, and nothing on the screen announcing which one is being
+read. It fails quietly. It caught a reading of this map's own evidence two days after the map
+first wrote the trap down.
+
+#### Limits of this round
+
+- **Two composites is all there is.** The gallery header reads **6 photos**; two composite
+  captures were received. The other four have not been obtained.
+- **These are photos of a phone gallery, not the screen itself.** Panels are stacked and
+  scrolled, rows are cropped at the top and bottom of some panels, and the `Last updated` and
+  `Created on` columns are not legible at this resolution. Nothing has been read from those
+  columns.
+- **No single-account list has been read end to end,** which is why the count above is left open
+  rather than replaced with a better number.
