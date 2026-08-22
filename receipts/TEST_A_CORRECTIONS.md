@@ -258,3 +258,53 @@ version), `·` and `→` intact, UTF-8, no BOM, LF endings.
 `~$*` was added to `.gitignore` the same day. Word drops a `~$catalog.md` owner file beside any
 file it opens, and a Word that is killed rather than closed leaves it behind — inside the
 drop-in folder, where it would travel to Nicole with everything else.
+
+---
+
+### 2026-08-22 — Test B, a second task added
+
+**`TEST_METHOD.md` is not edited.** It was locked on August 17, 2026, before any run, and
+Test A ran against it on August 19. Editing it now would break the single claim this comp
+was built to make. What follows is an **addition**, logged here with its date. The frozen
+file stands exactly as written, and its Test B task stands with it.
+
+**Why a second task.** The frozen Test B task is the Fit Call nurture task. That task is
+now worked end to end in `README.md` at the repository root — all four parts of the bar,
+including the object, what moves with it, and the wrong-neighbour grab. That README sits
+**outside** the drop-in folder, so the frozen task survives as long as Nicole receives the
+zipped `map/` folder and never the repository or the GitHub link. This second task removes
+the dependency on that being handled correctly by whoever sends the folder.
+
+**How the object was chosen.** Three carded objects appear nowhere in `map/examples.md` or
+the root `README.md` — checked by filename and by object name, both returning zero:
+`sh-fit-call-attended.md`, `maria.md`, `sarah.md`. The first was chosen because it tests
+the map rather than the boundary. It is a workflow and a tag sharing one name, it sends
+nothing, and it only fires when a person sets an appointment status by hand. All four parts
+of the bar are reachable from it.
+
+**The task, verbatim:**
+
+> Adam asked you to change the message someone gets after they turn up for their fit call.
+> Using only this folder: (1) find where to start, (2) tell me what object you'd be
+> touching, (3) tell me what else moves if you change it, and (4) tell me the one thing you
+> might grab by mistake. Then stop.
+
+The four-part bar is copied unchanged from `TEST_METHOD.md`. Only the opening sentence
+differs.
+
+**What the sentence deliberately does not do.** It names no object, no lane, no screen and
+no tag. It uses the words somebody would actually say out loud. `fit call` is Safe Harbor's
+own word for the appointment and appears in the frozen task too, so it gives away nothing
+the original did not.
+
+**What it walks into.** That object sends nothing — no SMS, no email. A reader sent looking
+for a message will not find one. Whether the map tells them that before they go hunting is
+what this run measures.
+
+**A known limit of this run: the folder primes her for the shape.** `map/examples.md`
+Example 1 teaches exactly this pattern — a reader sent looking for a message, the obvious
+lane empty, the message living on another object entirely. Different object, same shape.
+So this task does not measure whether Nicole derives that pattern cold. It measures whether
+she can apply a pattern the folder taught her to an object she has not seen worked. That is
+a weaker claim than the frozen nurture task makes, and it is the price of picking an object
+the folder has not already walked. Both facts are on the record; neither is withdrawn.
