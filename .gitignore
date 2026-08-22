@@ -8,6 +8,7 @@ map/**/CLAUDE.md
 
 # Working notes - process scaffolding, not part of the submission
 tasks/
+scratchpad/
 
 # Microsoft Office owner/lock files (~$catalog.md and the like)
 # Word drops these beside any file it opens. They hold an exclusive write lock
