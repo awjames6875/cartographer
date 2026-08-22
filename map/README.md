@@ -44,6 +44,7 @@ Steps 1 and 2 are short and they are not optional if you are about to change som
 ## What is in here
 
 - **`catalog.md`** — the front door. Always the first thing you open after this file.
+- **`examples.md`** — three short walks, start to finish, showing the two hops and the stop. **Off the path.** Read it once if you want to see the shape before doing your own; skip it if you are in a hurry. It does not answer your question.
 - **`objects/`** — one card per walked object. **The catalog tells you which single one to open.** There is never a reason to list this directory.
 - **`reference/collisions.md`** — every lookalike pair in one table. **Off the path.** It exists for checking the whole set at once, which is not what you are doing. Your lane in the catalog already carries the lookalikes for your object.
 

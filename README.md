@@ -47,6 +47,7 @@ map/
 ├── identity.md                What this map is, and what it refuses to do. ~2 min
 ├── rules.md                   What the marks mean. What VERIFY means. ~3 min
 ├── catalog.md                 The front door. Find your sentence. It names one card.
+├── examples.md                Three short walks, start to finish. Shows the shape.
 ├── objects/                   One card per object somebody walked. Eight of them.
 │                              The catalog tells you which single one to open.
 └── reference/
