@@ -667,3 +667,72 @@ reader, and it does not run this test.
 ### Logged, whatever happens
 
 Full transcript, kept as-is. If it fails, it ships. `TEST_METHOD.md` is not edited.
+
+---
+
+### 2026-08-23 — The shipped archive and the repository have diverged
+
+**This entry records a divergence and does not explain it.** Authorship and timing are
+unknown. Nothing below asserts a sequence.
+
+#### What is known, and checkable
+
+**The repository's door and the shipped door are not the same file.**
+
+| | `map/README.md` in git | `map/README.md` inside the zip |
+|---|---|---|
+| Size | 2,077 bytes | 2,481 bytes |
+| Contains the paragraph below | no | yes |
+
+- `map/README.md` on disk is byte-identical to `HEAD` — hash `63d29ee`, `git status` clean.
+  Its mtime is **Aug 22, 23:57:33**.
+- The last commit touching it is **`b45b8cc`, Aug 22 23:58** — the Test B repair.
+- `cartographer-map-for-nicole.zip` has mtime **Aug 23, 00:48:59** and is **37,367 bytes**.
+  The archive built from this repo at 23:58 was **37,190 bytes**. The shipped file is not
+  the archive this repo produced.
+
+**The text present in the archive and absent from the repository:**
+
+> **If `catalog.md` is listed in your uploads but its contents are not visible to you, read
+> it from disk before doing anything else.** You have a file tool. "Didn't render" is not
+> "unavailable." Do not reconstruct the route from a card, a filename, or memory — the front
+> door is the route, and a card saying "Came here from Lane B" is a receipt of a route
+> already taken, not a substitute for taking it.
+
+It is aimed precisely at what the Test C run 1 transcript describes.
+
+#### What was searched for, and what came back
+
+- `git log --all -S` for the paragraph across every branch: **no commit, ever.**
+- Every Claude Code session log for this repository: **no match** outside this session's own
+  transcript, which contains it only because the divergence was diffed here.
+- Every Claude Code session log for **every** project on this machine: **no match.**
+- Session logs modified between 00:00 and 01:30 on Aug 23: **only this session.**
+- The repository working tree: **no match.**
+
+#### What is not known
+
+- **Who wrote it.** No log this session can read attributes it to anyone.
+- **When it was written.** The archive's mtime records when the archive was last written,
+  not when the text was composed.
+- **Whether it was present when Test C run 1 executed.** The run happened on Aug 23 and the
+  archive was last written at 00:48:59 on Aug 23. Nothing available here orders those two
+  events.
+- **Therefore whether run 1's model read this paragraph and disregarded it, or never saw it
+  at all.** Both remain open. The transcript's *"didn't render for me"* is consistent with
+  either.
+
+**Absence from the logs is not proof of absence.** A session whose log had not flushed, a
+tool that does not log, an edit made on another device and synced — `C:\Users\1alph\Documents`
+is OneDrive-synced — would each leave exactly this evidence. The hypothesis that a second
+Claude Code session wrote it is **not supported** by any log readable from here, and is **not
+ruled out** by that.
+
+#### Why this is logged rather than fixed first
+
+The archive that was handed to a tester is not the artifact under version control. Any claim
+this project makes about what a reader received depends on those being the same file, and for
+some window they were not. That is a finding about the process, and it is recorded before the
+two are reconciled, because reconciling them destroys the evidence that they differed.
+
+`TEST_METHOD.md` is not edited.
