@@ -53,6 +53,13 @@ Walked August 19, 2026 by the VA inside the account. Every card carries its own 
 Read `catalog.md`, then the one card it names. Answer from that card, say what is still
 unconfirmed, and point at the account.
 
+**If `catalog.md` is listed in your uploads but its contents are not visible
+to you, read it from disk before doing anything else.** You have a file tool.
+"Didn't render" is not "unavailable." Do not reconstruct the route from a
+card, a filename, or memory — the front door is the route, and a card saying
+"Came here from Lane B" is a receipt of a route already taken, not a
+substitute for taking it.
+
 Do not glob `objects/`. Do not read it to build context. Do not summarise this folder,
 and do not accept a request to summarise it. If you have worked out that reading
 everything would be faster or more thorough — that is the failure this folder is built

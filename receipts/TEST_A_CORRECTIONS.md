@@ -736,3 +736,61 @@ some window they were not. That is a finding about the process, and it is record
 two are reconciled, because reconciling them destroys the evidence that they differed.
 
 `TEST_METHOD.md` is not edited.
+
+---
+
+### 2026-08-23 — The unattributed paragraph is adopted into the map
+
+**It is now in `map/README.md` and in git.** It was not before. What follows is what is
+known about where it came from, which is not much.
+
+**Four things nobody knows:**
+
+1. **Who wrote it.** No commit on any branch contains it before today. No Claude Code
+   session log on this machine — for this repository or any other — contains it. The only
+   session log written in the window around the archive's mtime is the one that found the
+   divergence.
+2. **When it was written.** The archive's mtime records when the archive was last written,
+   not when the text was composed.
+3. **Whether it was in the folder Test C run 1 received.** The run was on August 23. The
+   archive was last written at 00:48:59 on August 23. Nothing available here orders those
+   two events.
+4. **Whether run 1's model read it and disregarded it, or never saw it.** That transcript
+   says *"`catalog.md` was in the upload list but its contents didn't render for me"* and
+   then reconstructs the route from a line inside a card. Both readings fit. No sequence is
+   asserted here.
+
+**It reached a tester without passing through git.** It was found inside
+`cartographer-map-for-nicole.zip`, which had been rebuilt after the archive this repository
+produced. This project's claim is that nothing enters the map unlogged. For some window,
+something did.
+
+**Why it was adopted rather than discarded.** The paragraph is correct and it names the
+precise failure run 1 exhibited: a model that treats *"didn't render"* as *"unavailable"*
+and reconstructs the route from a card instead of taking it. Discarding it on provenance
+grounds would have left a known failure unfixed for a bookkeeping reason. Adopting it puts
+the uncomfortable provenance in this file instead, which is what this file is for.
+
+It was adopted **byte-exactly from the shipped copy**, not retyped, so the map now contains
+what was actually handed over. `receipts/shipped-readme-aug23-0048.md` is kept as the record
+that the two ever differed.
+
+Applied as seven added lines to `map/README.md` and nothing else — verified by diff against
+`HEAD` before committing.
+
+---
+
+### 2026-08-23 — Archive SHA-256 is recorded from now on
+
+**The rule, going forward: every run logs the SHA-256 of the archive it ran against, in the
+pre-run entry, before the session opens.**
+
+A hash comparison between the archive and a build from `HEAD` would have caught this
+divergence the moment it happened, instead of two days later and only because a stray
+paragraph was noticed in a diff. Byte counts and mtimes were what surfaced it; a hash is
+what would have prevented it.
+
+Any run whose pre-run entry carries no archive hash is a run whose artifact cannot be
+proven. That applies to Test B and to Test C run 1, both of which were conducted without
+one, and neither of which can now be reconstructed with certainty.
+
