@@ -352,3 +352,50 @@ names before opening the catalog.
 run was paused on discovery and restarted with the corrected archive, and she had the broken
 one in hand before the restart. Whoever reads the Test B transcript should read it knowing
 the object names were visible first. `TEST_METHOD.md` is not edited.
+
+---
+
+### 2026-08-22 — Test B, the tester opened catalog.md before the run
+
+**This entry is written before her transcript arrives.** That is the point of it, and the
+git history is the proof: this commit lands before any commit carrying her answers. It is
+logged now precisely so it cannot later be read as an excuse shaped around a result.
+
+**What she opened, in her own word:** *"catalogue."* That is `catalog.md`. It became
+openable when the broken archive unpacked flat on her Mac (previous entry).
+
+**How much of it she read is not known.** She was not asked, and nothing here assumes an
+answer. She may have opened it and closed it. She may have read the whole page.
+
+**What that costs the frozen bar — more than part (1).** `catalog.md` is hop one, so part
+(1), *find where to start*, is pre-exposed. But the lanes are not an index. Each one carries
+a compressed answer to the rest of the bar, and Lane E — the lane her task lands on — is no
+exception:
+
+- **Part (2), what object you'd be touching.** Lane E names `SH - Fit Call Attended`
+  outright, gives its screen, and gives its card path.
+- **Part (3), what else moves.** Lane E says the workflow *"moves tags and pulls the contact
+  out of the nurture,"* and that a person sets it by hand.
+- **Part (4), the one thing you might grab by mistake.** Lane E carries its own
+  **Not this one** line, naming the near-miss.
+- And Lane E's *also said as* list includes **"the post-call message"** — which is her task
+  sentence, near enough word for word.
+
+**So the honest statement is not that parts 2, 3 and 4 remain clean.** They remain clean
+only if she did not read Lane E, and that is unknown. What the cards still add beyond the
+lane is depth: the full **Hits** list, the reasoning under each near-miss, and the open
+`VERIFY` lines. A reader who had only Lane E could answer all four parts thinly. A reader
+who opened the card answers them properly. The transcript will show which one this was, and
+that is now the thing to read it for.
+
+**What this run no longer measures at all:** a cold first arrival at the front door. She has
+been there. Whether the catalog routes a stranger who has never seen it is not a question
+this run can answer any more.
+
+**Why this is recorded against the map rather than against her.** She did exactly what a
+person does with a folder of loose files — she opened the one whose name sounded like a
+starting point. That she picked the front door out of fourteen flat filenames is arguably
+the catalog doing its job under the worst possible conditions. It is still an exposure, and
+it is still logged as one.
+
+`TEST_METHOD.md` is not edited.
