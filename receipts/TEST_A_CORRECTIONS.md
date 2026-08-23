@@ -399,3 +399,31 @@ the catalog doing its job under the worst possible conditions. It is still an ex
 it is still logged as one.
 
 `TEST_METHOD.md` is not edited.
+
+#### How this entry got written, which is part of the evidence
+
+The version above is not the version that was asked for. The instruction was to log the
+exposure with this among its bullets, verbatim:
+
+> What the run still measures cleanly: parts 2, 3 and 4 — the card, what else moves, the
+> wrong-neighbour grab. All live in `objects/`, which she did not open.
+
+That is the flattering reading, and it is wrong. It treats the lanes in `catalog.md` as an
+index that only points. They are not. Lane E was opened and quoted before this entry was
+written, and it names the object, gives its screen and its card path, says what else moves,
+carries its own **Not this one** line, and lists *"the post-call message"* among the phrases
+somebody would say — which is the task sentence. Parts 2, 3 and 4 are answerable from the
+lane alone, thinly.
+
+The claim was checked against the file instead of being taken on trust, the difference was
+raised rather than quietly applied, and the accurate version was written in its place and
+kept.
+
+**Who proposed it is the part worth recording.** It came from Adam — the person with the
+most to gain from the generous reading — and it came *before* the transcript arrived, when
+nobody could yet know whether a generous reading would be needed or what it would be
+covering for. It was withdrawn on the evidence, in the same window, and the correction is
+in this file rather than in a conversation nobody else can see.
+
+The claim in this folder is that the receipts were not shaped toward a flattering result.
+This is what that looks like when it is tested on a live entry rather than asserted.
