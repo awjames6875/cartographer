@@ -308,3 +308,47 @@ So this task does not measure whether Nicole derives that pattern cold. It measu
 she can apply a pattern the folder taught her to an object she has not seen worked. That is
 a weaker claim than the frozen nurture task makes, and it is the price of picking an object
 the folder has not already walked. Both facts are on the record; neither is withdrawn.
+
+---
+
+### 2026-08-22 — Test B shipped broken, was paused, and restarted
+
+**The first archive reached the tester unusable.** This is logged because it happened, not
+because it changed a finding.
+
+**What broke.** The archive was built on Windows with PowerShell 5.1's `Compress-Archive`,
+which writes **backslashes** as path separators inside the zip. The ZIP specification
+(APPNOTE 4.4.17.1) requires forward slashes. Windows readers tolerate the violation, so the
+archive verified as correct on the machine that made it. macOS does not: it read each stored
+path as a literal filename. Nicole opened it and got **14 flat files** called
+`map\catalog.md`, `map\objects\maria.md` and so on, with no folder structure at all.
+
+**How it was caught.** By the tester, on her machine, after the archive had been sent.
+Not by the checks that were run before sending it. Those checks read the entry table and
+confirmed the contents were the right 14 files with nothing extra — and every one of them
+passed, because a Windows reader shows a backslash path as a folder path. The verification
+was real and it was blind to the one thing that mattered.
+
+**The obvious fix also failed.** `[System.IO.Compression.ZipFile]::CreateFromDirectory` was
+tried second and wrote backslashes too — .NET Framework 4.8 on this machine still uses the
+platform separator. It was caught before sending only because the entry table was checked
+again rather than assumed. The working method was **bsdtar** (libarchive 3.8.4, shipped in
+Windows), which writes forward slashes.
+
+**How the rebuild was verified.** Three independent ways, because one was not enough the
+first time: the .NET entry table, bsdtar's own listing of the finished file, and a raw byte
+scan of the archive for the sequence `map\`. Zero backslash paths. Seventeen entries — the
+14 files plus explicit directory records for `map/`, `map/objects/` and `map/reference/`.
+No `receipts/`, no `.git`, no `scratchpad/`, no root `README.md`, no `TEST_METHOD.md`.
+
+**What it cost the run, stated rather than waved off.** The flat listing showed Nicole all
+fourteen filenames in one view, including `map\objects\sh-fit-call-attended.md` — the object
+her task points at. The folder is built so a reader never sees that inventory: `rules.md` §5
+refuses the whole `objects/` folder, and `map/README.md` says there is never a reason to
+list the directory. A flat unpack is a weaker version of exactly that. She saw the card
+names before opening the catalog.
+
+**Whether she opened any of them is not known and is not assumed here.** What is known: the
+run was paused on discovery and restarted with the corrected archive, and she had the broken
+one in hand before the restart. Whoever reads the Test B transcript should read it knowing
+the object names were visible first. `TEST_METHOD.md` is not edited.
