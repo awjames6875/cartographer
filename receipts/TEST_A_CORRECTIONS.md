@@ -520,3 +520,59 @@ Nothing about whether the catalog routes, whether a card answers, or whether the
 lines work. None of that was reached. **This run tested the first ten seconds of the folder
 and stopped there.** Test C, on a fresh model, is still a live test of everything past the
 door — and it reads the same README.
+
+---
+
+### 2026-08-22 — The fix to the door, after the failure was logged
+
+**Order matters here and it is checkable.** The Test B failure was committed and pushed at
+`b9ab925` before `map/README.md` was touched. This entry, and the commit carrying it, come
+after. The git history is the proof that the map was not quietly repaired and the failure
+written up around it.
+
+**What changed.** `map/README.md` only. 904 words to 375. Nothing else in `map/` was edited.
+
+**The defect that mattered most: the door gave two different first actions.** Line 11 said
+read `catalog.md` now. Lines 35–40 said `identity.md` → `rules.md` → `catalog.md` → card,
+and called the first two steps *"not optional."* A reader who takes the file seriously
+resolves that by reading further rather than by acting, which is exactly what Nicole did —
+three times through, by her own account, and she never left the file.
+
+**How it was resolved: `identity.md` and `rules.md` are background, not a prerequisite.**
+`map/README.md` was the only file in the folder claiming otherwise. `catalog.md`'s own
+*How to use this page* teaches find-the-sentence → one card → stop. `map/examples.md`
+teaches two hops. The root `README.md` teaches two hops. `TEST_METHOD.md`'s Test B bar asks
+the reader to *find the front door from the catalog* and never requires the other two files
+first. The outlier was corrected to match the rest.
+
+**The reason behind "not optional" was real, and it was kept.** Without `rules.md` a reader
+could read `VERIFY` as *this is broken* rather than *nobody confirmed this*. Rather than
+require a whole file to learn one word, the door now defines `VERIFY` in one line — and
+defines `object` beside it, because asked what object she would be touching, Nicole answered
+**"folder."** The word had never been defined before she met it.
+
+**The other four changes, each traceable to something she said or did:**
+
+- **It opens with her situation, not with what the folder is.** Fifty-five words, then the
+  first action. The root `README.md` and `catalog.md` both open this way and both work; the
+  one door she actually received did not.
+- **The instruction is a step, not a rule.** It was filed under *"The one rule"* and
+  outnumbered three to one by prohibitions. She came away knowing what she must not do.
+- **The model-facing section moved to the end.** It was section two of seven — a dead
+  stretch twenty per cent in for a human reader.
+- **It ends on an action.** The last line is now *"Now open `catalog.md`."* It previously
+  ended on *"When the map and the account disagree"* and the dated section, which is the
+  exact spot she named when asked where she got stuck. The disagree rule survives as one
+  line beside the definitions, where it is about her behaviour in the account rather than a
+  section about how to think.
+
+**One thing added that was not on the list.** *"Nothing here tells you how to fix anything."*
+Her answer described a troubleshooting manual — *"tells you what to look at, how the maps
+run, what to correct."* The old door did say so, in section six, headed *"What is not in
+here."* She read past it. It is now stated plainly, in the reader's own terms.
+
+**What this fix is not.** It is untested. Nicole's run cannot be re-run — she is no longer a
+stranger to this folder. Test C is a fresh model against this same file, and it is the only
+remaining evidence about whether the door hands off. If it fails too, that ships as well.
+
+`TEST_METHOD.md` is not edited. `identity.md` and `rules.md` are not edited.
