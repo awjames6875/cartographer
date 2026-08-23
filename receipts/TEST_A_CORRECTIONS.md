@@ -427,3 +427,96 @@ in this file rather than in a conversation nobody else can see.
 
 The claim in this folder is that the receipts were not shaped toward a flattering result.
 This is what that looks like when it is tested on a live entry rather than asserted.
+
+---
+
+## TEST B — Nicole — August 22, 2026
+
+# The door did not hand off. The map failed.
+
+**Logged before any edit to `README.md`.** No fix is in this commit. `TEST_METHOD.md` says a
+failed run ships anyway and the fix gets logged after; this is the run shipping first.
+
+**Tester:** Nicole. A genuine domain outsider — never inside Safe Harbor's GoHighLevel.
+**Prior exposure:** logged in advance at `5b48f88`, before this transcript existed.
+**Duration:** about 20 minutes.
+
+### What happened
+
+She read **`map/README.md`** and nothing else. She opened no other file. She never reached
+`catalog.md`, and she never opened a card.
+
+Parts **3** and **4** of her task — *what else moves if you change it*, and *the one thing
+you might grab by mistake* — came back **unanswered**. Both live in the card she never
+opened. Whether parts 1 and 2 were answered is not recorded in what was supplied for this
+entry, and is not assumed here.
+
+Against `TEST_METHOD.md`'s own four-part bar, the first three fail outright: she did not
+find the front door from the catalog, did not open one card, and did not name Hits or the
+wrong neighbour. She satisfies the fourth — *stops without loading the rest* — in the
+emptiest way it can be satisfied. She stopped because she had nowhere to go, not because
+the folder told her she was done.
+
+### Her closing answers, verbatim
+
+Recorded as supplied, including the shift into third person and the note-form phrasing.
+Not tidied.
+
+**Asked what she thought she was supposed to do next:**
+
+> "tell me to do these things, looking for troubleshooting telling you what to do, will go
+> back troubleshoot. tells you what to look at, how the maps run, what to correct, walk,
+> run, tell everything, different dates to look at. The marks are not uniform, deliberate"
+
+**Asked where she was unsure:**
+
+> "the more time she read it, the more she understood, 3x to understand, at the end she
+> didn't know where to go, looking at 'when the map and account disagree' and dated area"
+
+### The plain statement
+
+**`README.md` reads as a manual to be studied rather than a sign that points.** The routing
+instruction did not register as an action. The door did not hand off.
+
+**This is a failure of the map, not of the tester.**
+
+### What the two answers show
+
+**She was reading it, and reading it closely.** *"The marks are not uniform, deliberate"* is
+a line lifted almost word for word out of `map/README.md`. She absorbed the content. She
+read it three times by her own account, and reported understanding it better each pass.
+What she never did was treat any of it as an instruction to go somewhere.
+
+**She stopped at the end of the file, and the end of the file is not a door.** *"when the
+map and account disagree"* and the *"dated area"* are the last two sections of
+`map/README.md`. She read to the bottom and had nowhere to go. Both sections are about how
+to think about the map — the account wins, every card carries a date. Neither says *now open
+this*.
+
+**The one rule is at the top and the reading order is in the middle, and she passed both.**
+`map/README.md` opens with **read `catalog.md`, it sends you to ONE card, open that card,
+stop**, and carries the four-step order further down. She went past both and kept reading to
+the end. Being stated first was not enough to make it land as the thing to *do*.
+
+**Her first answer describes a troubleshooting manual.** *"tells you what to look at, how
+the maps run, what to correct."* The folder refuses to tell anybody what to correct
+(`rules.md` §6) — and she came out expecting exactly that. She was waiting for instructions
+the folder had already decided never to give, and nothing in the door told her that what she
+was holding works differently.
+
+### The prior exposure turned out not to matter
+
+`5b48f88` recorded that she had opened `catalog.md` when the broken archive unpacked flat,
+and stated that this run could no longer measure a cold first arrival at the front door.
+
+**She never went back to it.** She failed earlier than the exposed material — she did not
+reach the catalog at all this time. Having already opened it once did not pull her toward
+it. That makes the exposure moot for this result, and it makes the finding worse rather than
+better: the door failed to route a reader who had already seen where the route led.
+
+### What this does not tell us
+
+Nothing about whether the catalog routes, whether a card answers, or whether the collision
+lines work. None of that was reached. **This run tested the first ten seconds of the folder
+and stopped there.** Test C, on a fresh model, is still a live test of everything past the
+door — and it reads the same README.
