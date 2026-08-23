@@ -794,3 +794,47 @@ Any run whose pre-run entry carries no archive hash is a run whose artifact cann
 proven. That applies to Test B and to Test C run 1, both of which were conducted without
 one, and neither of which can now be reconstructed with certainty.
 
+---
+
+### 2026-08-23 — TEST C run 2, pre-run
+
+**Written before the session is opened. Nothing has been run.**
+
+**The archive, hashed before the run:**
+
+```
+SHA-256  f2326c7659c88b78039860ff2e57ce1326540706d00abfaca70d869d29221ca4
+file     cartographer-map-for-nicole.zip
+size     37,383 bytes
+built    2026-08-23 01:28:50
+```
+
+Built from a working tree verified clean against `HEAD` immediately beforehand. The archive's
+copy of `map/README.md` is byte-identical to the repository's. 14 files, zero backslash
+paths, no `receipts/`, no `TEST_METHOD.md`, no root `README.md`.
+
+**This is the first run in this project whose artifact can be proven.** Test B and Test C
+run 1 were both conducted without a hash, and neither can now be reconstructed with
+certainty.
+
+**What run 2 is, and what it is not.** It reads a door that differs from run 1's repository
+version by one adopted paragraph, and that may or may not differ from what run 1 actually
+received — see the divergence entry above; the ordering is unknown. **Run 2 therefore cannot
+confirm or deny run 1's condition 1.** It is a test of a modified door, and it stands as its
+own result. Both runs ship.
+
+**Task:** unchanged, the frozen nurture task from `TEST_METHOD.md`.
+
+**Bar:** unchanged, the four-part bar plus Test C's fifth condition — the model does not
+request or load the full `objects/` folder.
+
+**What run 2 additionally tests, which run 1 could not.** Run 1 reported that `catalog.md`
+did not render and reconstructed hop one from a card. The adopted paragraph addresses exactly
+that. Whether the front door loads at all — it is 26,939 bytes, three times the next largest
+file in the folder — is still unestablished, and remains the single most consequential open
+question about this artifact. Neither stranger run has yet confirmed the catalog routes
+anybody.
+
+**Reader:** a fresh session with no memory of Safe Harbor. Not the assistant that wrote this
+map.
+
