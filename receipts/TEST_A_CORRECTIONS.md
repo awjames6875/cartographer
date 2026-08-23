@@ -576,3 +576,94 @@ stranger to this folder. Test C is a fresh model against this same file, and it 
 remaining evidence about whether the door hands off. If it fails too, that ships as well.
 
 `TEST_METHOD.md` is not edited. `identity.md` and `rules.md` are not edited.
+
+---
+
+## TEST C — pre-run — August 23, 2026
+
+**Written before the session is opened.** Nothing has been run. Two calls are recorded here
+so that neither can be made after seeing a result.
+
+### Call 1 — the task is the frozen one
+
+Test C uses `TEST_METHOD.md`'s own Test B task, verbatim:
+
+> "Adam asked you to change the timing on the Fit Call nurture texts. Using only this
+> folder: (1) find where to start, (2) tell me what object you'd be touching, (3) tell me
+> what else moves if you change it, and (4) tell me the one thing you might grab by mistake.
+> Then stop."
+
+That is what the frozen file says — *"Same verbatim task as Test B"* — and it is the task
+`TEST_METHOD.md` names for Test B, not the Attended task added on August 22 for Nicole.
+
+**It is clean for a fresh model, and it was not clean for Nicole.** The root `README.md`
+works this task end to end, all four parts. That file sits **outside** the drop-in folder,
+so a model receiving only `map/` never sees it. Nicole's run had a different problem —
+prior exposure from the broken archive — which does not transfer to a session with zero
+memory.
+
+**One exposure inside the folder, named now rather than after.** `map/examples.md` line 74,
+inside the third walk, names `SH - Fit Call Nurture (Alt Days)` and says it is *"15 texts, 2
+days apart, about four weeks end to end."* That walk is about `SH - Fit Call No Show`; the
+nurture appears as a downstream consequence. A model that reads `examples.md` before the
+catalog therefore meets part (2) of the task — what object — and one fact bearing on part
+(3), without having routed there itself. The door marks `examples.md` **off the path**, but
+it is in the folder and a model may open it. Parts (3) and (4) still require Lane B and the
+card. If the transcript shows the object arriving from `examples.md` rather than from the
+catalog, that is this, and it was known in advance.
+
+### Call 2 — Test C runs on the repaired door, and the frozen order was broken to repair it
+
+`TEST_METHOD.md` says:
+
+> **## Order of runs**
+> Test A first (fix accuracy) then freeze cards then Test B and Test C on the frozen
+> version. **No edits between B and C.**
+
+**That rule was broken.** Test B ran and failed on August 22 (`b9ab925`). `map/README.md`
+was rewritten afterwards (`b45b8cc`), 904 words to 375. Test C will read the rewritten door.
+
+**Why, stated plainly.** The frozen order assumed Test B would pass. It did not — the door
+failed to hand off at all, and the reader never reached the catalog. Running Test C against
+a door already known to be broken would have produced a failure that was predictable before
+the session opened. That is not evidence; it is a re-enactment. The repair was made so that
+Test C could test something still unknown.
+
+**What that costs, not smoothed over.** Test B and Test C are no longer runs against one
+frozen artifact, and they cannot be reported as though they were. Test B is a result about
+the old door. Test C will be a result about the new one. Nothing composes them into a single
+claim about one version of this folder, and no claim of that shape should be made from them.
+
+**What remains true.** `TEST_METHOD.md` is not edited — not to permit this, not to
+soften it, not at all. It still says *no edits between B and C*, and the history still shows
+an edit between B and C. The rule and its breach are both on the record, in that order, with
+dates.
+
+### The bar Test C is measured against
+
+From the frozen file, unchanged:
+
+> **Pass (all four, from the brief's bar):** finds the front door from the catalog; opens
+> ONE card and understands the object; names Hits + the obvious wrong neighbor; stops
+> without loading the rest.
+
+Plus Test C's own additional condition:
+
+> **Pass:** Same four-part bar as Test B, PLUS: the model does not request or load the full
+> objects folder.
+
+**Five conditions. The fifth is the one this folder was built to earn.** `map/README.md`
+carries a section addressed to a model telling it not to glob `objects/`, and `rules.md` §5
+aims a paragraph at exactly the reasoning a model would use to justify it. Whether that
+holds is what has never been tested.
+
+### Who runs it
+
+A brand-new Claude session with no memory of Safe Harbor, receiving only the drop-in folder.
+**Not the assistant that wrote this map.** That assistant authored `map/README.md`,
+`map/examples.md` and the card set, and knows the answer to the task — it cannot be the
+reader, and it does not run this test.
+
+### Logged, whatever happens
+
+Full transcript, kept as-is. If it fails, it ships. `TEST_METHOD.md` is not edited.
