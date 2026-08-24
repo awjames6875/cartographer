@@ -931,3 +931,136 @@ zero backslash paths, no `receipts/`, no `TEST_METHOD.md`, no root `README.md`.
 
 **Any run from here logs this hash, or the run cannot say what it read.**
 
+---
+
+## TEST B — transcript committed — August 24, 2026
+
+`receipts/TEST_B_TRANSCRIPT.md`, 646 lines, added by hand from a Descript recording,
+auto-transcribed. Task given: the **Attended** task, the second Test B task added Aug 22 and
+logged before the run.
+
+### How it was trimmed
+
+Off-topic personal conversation before and after the task was removed for the tester's
+privacy. **No part of the walk itself was cut.** Transcription artifacts are left in,
+including the auto-transcriber's occasional substitution of non-English words. The
+transcript's own header states this.
+
+### Finding 1 — the tester could not open `.md` files at all
+
+**Option 1: no default application for `.md` on the tester's Mac.**
+
+From the untrimmed original, timestamps 2:48–3:14 — **cut during trimming, so these quotes
+are not in the committed transcript**, which is why they are preserved here:
+
+> **Tester (2:48):** "Do you see that? There is no application set to open the README file"
+>
+> **Tester (3:01):** "No, I just clicked it to open it. See, so when it says read me, right?
+> I double-click, and this is what comes up. There is no application set to open the document
+> readme.md"
+>
+> **Builder (3:00):** "Can't you right-click it or something?"
+
+**The builder's only involvement at this point was suggesting a right-click to open a file.**
+Not task help.
+
+**What this reframes.** Every instruction in this folder assumes a file opens when you click
+it. For this reader, opening any file was a problem to solve before reading could begin — and
+the reading rule asks her to open a second one. *"Open the ONE card it names"* is not one
+action on a machine with no `.md` handler.
+
+### Finding 2 — she read the folder as separate, sequential assignments
+
+> "were, but I was thinking we were going to do that one. So this is me, right? We're gonna
+> do that one. Once we finished that, then you would have me close it and then go to another
+> one."
+>
+> "I didn't think that they were all related"
+
+She took the files as a queue of unrelated tasks rather than one path with a next step.
+
+### Finding 3 — she never reached `catalog.md` or any card
+
+She named the catalog correctly and repeatedly, from the README's text — *"the first rule is
+to read the catalog"* — and never opened it. At one point she says *"So this is the catalog, I
+guess,"* looking at the README's description of it. She answered *"the folder"* when asked
+what object she would be touching, and held that answer.
+
+### A correction to what was logged at `b9ab925`
+
+That entry says: *"She read `map/README.md` and nothing else. She opened no other file."*
+**The transcript does not confirm that, in either direction.**
+
+Nearly everything she quotes is traceable to `map/README.md`, including its one-line
+descriptions of the other files — which is why *"three examples start to finish,"* *"four
+things it refuses to do"* and *"lookalike for your object"* appear in her speech without her
+having opened `examples.md`, `identity.md` or `collisions.md`. But the builder says *"you
+don't have to just stay in identity,"* which reads as him seeing `identity.md` on her screen.
+
+The claim is downgraded from *established* to *unconfirmed*. It is consistent with
+README-only and is not proven by this tape.
+
+### The tape evidences the contradiction defect directly
+
+The four external-review fixes and the README rewrite were diagnosed after this run. Her own
+words, reading the **pre-repair** door, are the evidence:
+
+> "So it says here, i-- Steps one and two are short and they're optional if you are about to
+> change something."
+>
+> "So it's telling me the identity, the rules, the catalog, and it names one card. So the
+> catalog is front door, right? **Steps one to two are short but they have to be done. It's
+> mandatory 'cause they're not optional, right?**"
+
+She hit lines 11 and 35–40 of the old `map/README.md`, read them against each other, and
+resolved the contradiction by concluding `identity.md` and `rules.md` were mandatory first.
+That is the defect, on tape, in the reader's own voice. The diagnosis was not reconstructed
+after the fact.
+
+### Builder involvement — recorded as the tape shows it, not as summarised
+
+**This was requested as: the builder confirmed answers she reached herself, gave encouragement
+per the pre-written method, one nudge logged, no answer supplied. The transcript does not
+support that, and it is recorded here as it reads.**
+
+`TEST_METHOD.md`'s frozen Test B rule is **"No help from Adam."** That rule was not observed.
+
+**Confirmation of her own answers** — this part is accurate. She said *"Well, the read the
+catalog, no?"* and the builder said *"That's it."* Later: *"You got it. Read the catalog."*
+She reached it; he confirmed.
+
+**But direction was also supplied, unprompted:**
+
+- "You're in the right place. **Start with the README file.**" — before she had found anything
+- "you wanna start with the README file, but you have access to all the files"
+- "You start with the README, which gives you everything"
+- "**You can open anything in that folder.** Remember" · "There's other things you can open" ·
+  "Anything in those folders. That folder I gave you, you have access to everything, anything"
+- "you don't have to just stay in identity"
+- "**Do you see the word object anywhere?** What does that say? It's a common word"
+- "There are some examples in there"
+- "See something you're gonna change that has to do with the cards"
+- "You have to open a file" — the nudge that was acknowledged
+- Negative signals on wrong answers: "Come on" · "Wrong answer"
+- The task was re-read aloud to her roughly six times
+
+**What the builder did withhold**, in his own words on the tape:
+
+> "I would've been guiding you to do that, and **I would've been cheating.** But my README
+> should've been so good that if I would've said, 'Hey, what's the first thing you do?' We
+> would've said go to catalog. I could've wrote, 'Hey, get out of here and go to the catalog
+> right now. Click out.' I could've said that. 'Now go to the catalog.' … I didn't do"
+
+So the specific route was withheld. Orientation, permission, pointers and pass/fail signals
+were not. **"No help from Adam" and what is on this tape are not the same thing**, and the
+transcript is the record, not the summary.
+
+**Why this is logged rather than smoothed.** The run's finding — that the door did not hand
+off — is *strengthened*, not weakened, by this. She failed to reach the catalog **while being
+told to start at the README, told she could open anything, told there were examples, told she
+need not stay in identity, and having her correct answer confirmed twice.** A door that does
+not hand off under that much assistance is a worse door than one that fails a reader in
+silence. Recording the help makes the finding harder to dismiss, not easier.
+
+`TEST_METHOD.md` is not edited.
+
