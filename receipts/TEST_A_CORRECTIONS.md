@@ -1112,3 +1112,35 @@ filename is lowercase in every occurrence. Only the capitalised form was replace
 `cartographer-map-for-nicole.zip` is removed. The current archive is
 `cartographer-map-for-tiffany.zip`, rebuilt from `HEAD` and hashed in the entry below.
 
+---
+
+### 2026-08-24 — Archive renamed and rebuilt
+
+```
+SHA-256  f86678b86cc4c5b3a47310f2f4ac682c71fe1c8f67b4a16a0cf2d55c6fa0eae2
+file     cartographer-map-for-tiffany.zip
+size     37,800 bytes
+built    2026-08-24 00:31:53
+```
+
+Built from a working tree verified clean against `HEAD` **after** the name corrections were
+committed, so the hash corresponds to a known commit rather than to a working copy. 14 files,
+zero backslash paths, no `receipts/`, no `TEST_METHOD.md`, no root `README.md`. Three
+occurrences of `Tiffany` inside the archive and zero of `Nicole`, checked by extracting the
+three files from the finished archive.
+
+**Superseded, and not to be used for any run:**
+
+- `cartographer-map-for-nicole.zip` · SHA `ee259c46…` · built Aug 23 21:00:35 — correct
+  content, wrong filename and wrong tester name inside.
+- `cartographer-map-for-nicole.zip` · SHA `f2326c76…` · built Aug 23 01:28:50 — predates the
+  four external-review fixes.
+
+Both are removed from disk. Their hashes stay on this page because a superseded artifact that
+was hashed is still a record of what existed.
+
+**A note on the order of operations.** The archive was first rebuilt while the name
+corrections were still uncommitted, then discarded and rebuilt again after the commit. The
+hash above is the second build. An archive hashed against an uncommitted working tree cannot
+be tied to a commit, which defeats the purpose of recording the hash at all.
+
