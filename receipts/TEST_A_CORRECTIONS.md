@@ -1249,11 +1249,49 @@ transcript kept as-is. **Run 2 logs the session verbatim, whatever it shows.**
 this map.
 
 **Rules of the run:** no help, no hints, no corrections, no follow-up prompts. Any question
-the reader asks out loud is left unanswered and stays in the transcript. The first message is
-the setup line the root `README.md` prescribes — *read `catalog.md` first, then open the one
-card it names* — plus the frozen task, and nothing else. That line is sanctioned by
-`TEST_METHOD.md`, which hands Test C the folder "per the README's own instructions (catalog
-first, one card)."
+the reader asks out loud is left unanswered and stays in the transcript.
+
+#### The first message, verbatim
+
+The session opens with this and nothing else — no preamble, no framing, no follow-up:
+
+```
+Read `catalog.md` first, then open the one card it names.
+
+Adam asked you to change the timing on the Fit Call nurture texts. Using only this folder:
+(1) find where to start, (2) tell me what object you'd be touching, (3) tell me what else
+moves if you change it, and (4) tell me the one thing you might grab by mistake. Then stop.
+```
+
+The first line is the setup line the root `README.md` prescribes, and `TEST_METHOD.md`
+sanctions it: Test C receives the drop-in folder *"per the README's own instructions (catalog
+first, one card - if the README makes the model load everything, the README fails)."* The
+second paragraph is the frozen task, unaltered.
+
+**What this narrows, stated before the run and not after.** The routing instruction is *in*
+the first message. **Condition 1 therefore tests whether the model follows the routing
+instruction — not whether it discovers the route unaided.** A pass means the model was told to
+open the front door, opened it, and let the catalog route it to one card. It does not mean the
+catalog is self-evident to a reader who arrives without that sentence.
+
+This is the frozen method's design rather than a concession to it. `TEST_METHOD.md` hands
+Test C the folder with the instruction attached, and the root `README.md`'s Setup section tells
+every real reader to say the same sentence to a model. So the run measures the thing this map
+actually ships with. **What no run has tested, and what this one will not test either, is a
+model arriving at this folder with no routing sentence at all.** That stays open, and nothing
+here should be read as having closed it.
+
+**What condition 1 does still settle, which is the consequential part.** Whether `catalog.md`
+loads at all — 27,320 bytes, three times the next largest file in the folder — and whether
+Lane B resolves to exactly one card. Run 1 answered neither: the file was listed in its
+uploads and did not render, so hop one was reconstructed from a card. **Being told to open the
+front door does not make it open.** That is the question this run exists to answer.
+
+**One more reason the two stranger runs do not compose.** Condition 1 does not mean the same
+thing in Test B and Test C. Test C's reader is handed the route in its first message; Test B's
+was not, and what she was handed instead is on the tape and logged above. Beyond the different
+door and the different environment already recorded, the two runs are not scored against the
+same condition 1, and no combined claim about "the stranger runs" should be built on them.
 
 **Logged, whatever happens.** A pass and a failure both ship. Test B failed and shipped; so
 does this.
