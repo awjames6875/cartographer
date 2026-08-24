@@ -1161,3 +1161,99 @@ corrections were still uncommitted, then discarded and rebuilt again after the c
 hash above is the second build. An archive hashed against an uncommitted working tree cannot
 be tied to a commit, which defeats the purpose of recording the hash at all.
 
+
+---
+
+### 2026-08-24 — TEST C run 2, pre-run
+
+**Written before the project is created and before any session is opened. Nothing has been
+run.**
+
+**This entry supersedes the run 2 pre-run entry of August 23.** That entry hashed
+`cartographer-map-for-nicole.zip` (SHA `f2326c76…`), which predates the four external-review
+fixes and has been removed from disk. **No run was ever conducted against it.** The task and
+the bar below are unchanged from that entry; the artifact and the environment are what change.
+
+**The archive, hashed before the run:**
+
+```
+SHA-256  f86678b86cc4c5b3a47310f2f4ac682c71fe1c8f67b4a16a0cf2d55c6fa0eae2
+file     cartographer-map-for-tiffany.zip
+size     37,800 bytes
+built    2026-08-24 00:31:53
+```
+
+**What was checked against this archive rather than assumed.** Its `map/` tree was extracted
+and diffed against the repository's `map/` — byte-identical, no differences. 14 files plus 3
+directory entries. Zero backslash paths. No `receipts/`, no `TEST_METHOD.md`, no root
+`README.md`, no `map/CLAUDE.md`. Three occurrences of `Tiffany`, zero of `Nicole`.
+
+**It corresponds to a commit, not to a working copy.** The archive was built at 00:31:53,
+thirteen seconds after `2bf88f5` carried the name corrections. Every commit since —
+`a6f9e5e`, `fd2f164` — touched `receipts/` only, and `git diff HEAD -- map/` is empty. The
+`map/` inside this archive is `HEAD`'s `map/`.
+
+**Task:** unchanged, the frozen nurture task from `TEST_METHOD.md`.
+
+> Adam asked you to change the timing on the Fit Call nurture texts. Using only this folder:
+> (1) find where to start, (2) tell me what object you'd be touching, (3) tell me what else
+> moves if you change it, and (4) tell me the one thing you might grab by mistake. Then stop.
+
+**Bar:** unchanged — the four-part bar Test C inherits from Test B, plus Test C's own fifth
+condition.
+
+1. Finds the front door from the catalog
+2. Opens ONE card and understands the object
+3. Names Hits + the obvious wrong neighbour
+4. Stops without loading the rest
+5. **Does not request or load the full `objects/` folder**
+
+#### Run 2 runs in a new Claude Project, not a chat upload
+
+Run 1 was a zip uploaded into a chat window. Run 2 will be a **new Claude Project** with
+`map/` added as project knowledge. Three reasons, stated before the run so the change cannot
+be presented afterwards as a result.
+
+1. **The brief specifies a Claude project.** Test C in `TEST_METHOD.md` is "a brand-new Claude
+   project/session," and the root `README.md`'s Setup section tells a reader to drop `map/`
+   into a Claude project. Run 1 never tested the delivery mechanism this map ships with.
+2. **It makes per-file reads visible.** Condition 5 asks whether the reader loads the full
+   `objects/` folder. Run 1 cannot answer that: the whole archive arrived at once and the
+   transcript records no file-by-file reads. In a project, which files get opened is
+   observable, so condition 5 stops being an inference.
+3. **Run 1's chat upload failed to render `catalog.md`.** The front door — 27,320 bytes, three
+   times the next largest file in the folder — was listed in the uploads and its contents were
+   not visible to the reader, which is why run 1 reconstructed hop one from a card instead.
+   Whether the catalog loads and routes anybody is still the single most consequential open
+   question about this artifact, and no stranger run has yet confirmed that it does.
+
+**What the change costs, recorded now rather than after.** Run 2 is **not** a clean
+replication of run 1. It reads a different door — one adopted paragraph plus the
+card-less-lanes sentence — in a different environment. **It therefore cannot confirm or deny
+run 1's condition 1**, and the two runs do not compose into a single claim about one version
+of this folder. Both ship, as separate results.
+
+#### Run 1 is superseded, and could not be proven
+
+Run 1 ran on August 23 against `cartographer-map-for-nicole.zip` at **37,190 bytes** — a size
+matching neither hashed archive (`f2326c76…` at 37,383 bytes, `ee259c46…` at 37,800). It was
+conducted before the hash rule existed, so **what run 1 actually read cannot now be
+reconstructed with certainty.** Its transcript stays in `receipts/` and its observations
+stand, but it is not an artifact this project can prove.
+
+That transcript also carries no verbatim session record: the paste marker is still in the file
+with only the reader's final answer beneath it, and `TEST_METHOD.md` asks for the full
+transcript kept as-is. **Run 2 logs the session verbatim, whatever it shows.**
+
+**Reader:** a fresh Claude project with no memory of Safe Harbor. Not the assistant that wrote
+this map.
+
+**Rules of the run:** no help, no hints, no corrections, no follow-up prompts. Any question
+the reader asks out loud is left unanswered and stays in the transcript. The first message is
+the setup line the root `README.md` prescribes — *read `catalog.md` first, then open the one
+card it names* — plus the frozen task, and nothing else. That line is sanctioned by
+`TEST_METHOD.md`, which hands Test C the folder "per the README's own instructions (catalog
+first, one card)."
+
+**Logged, whatever happens.** A pass and a failure both ship. Test B failed and shipped; so
+does this.
