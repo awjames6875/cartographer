@@ -27,7 +27,7 @@ The third leg stayed open for two days because reading a workflow's steps is not
 - Adds the tags `Website Lead` and `60-Day Funnel` to the contact on entry · settled: Sadie, August 19, 2026
 - Notifies the team twice about the new lead — once by SMS, once by email · settled: Sadie, August 19, 2026
 - Adds the tag `Voice AI Called` · settled: Sadie, August 19, 2026
-- **Starts Maria.** On the branch where the contact has a phone number, a VAPI "Create a Call" action places the outbound call · settled: Sadie, August 19, 2026. This is the object that starts her — see `objects/maria.md`, which maps her footprint and stops at the VAPI line.
+- **Starts Maria.** On the branch where the contact has a phone number, a step in this workflow places an outbound call through VAPI · settled: Sadie, August 19, 2026. **What kind of step is not settled.** It was described two ways in the same walk — a native VAPI "Create a Call" action, and a custom webhook to the VAPI API. One is a form field, the other a request body. `VERIFY — whether the step in this workflow is a native VAPI action or a custom webhook · settles by: opening the step in the account`. This is the object that starts her — see `objects/maria.md`, which maps her footprint and stops at the VAPI line.
 - Writes Maria's call summary and transcript into an internal email, as merge fields · settled: Sadie, August 19, 2026
 - Sends the contact the Fit Call booking link, slug `safe-harbor-fit-call` · settled: Sadie, August 19, 2026 (VERIFY-1, settled — see `objects/safe-harbor-fit-call.md`)
 - **Reads the tag `Appointment Booked`** to decide whether to send a booking reminder · settled: Sadie, August 19, 2026 (VERIFY-2, settled)

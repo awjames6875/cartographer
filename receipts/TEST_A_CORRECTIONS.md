@@ -838,3 +838,77 @@ anybody.
 **Reader:** a fresh session with no memory of Safe Harbor. Not the assistant that wrote this
 map.
 
+---
+
+### 2026-08-23 — Four defects found by external review, after Test B
+
+**None of these was found by the builder, and none was found by a test run.** They came
+from an outside reading of the folder after Test B failed. All four were verified against
+the files before being changed, and all four were real.
+
+#### 1. The Test B defect was alive in the catalog
+
+`catalog.md` line 5 read:
+
+> Read `identity.md` and `rules.md` first if you have not.
+
+**This is the same defect that failed Test B**, and it survived the repair because the repair
+only touched `map/README.md`. It was worse here than in the door: it sat at line 5, *above*
+the reading rule, phrased as a precondition — so a reader who reached the front door was
+told to leave it again before starting.
+
+Rewritten to match the repaired door: `identity.md` and `rules.md` are background, not a
+step, and not needed to start.
+
+**The lesson is about the repair, not the line.** Fixing the door and not searching for the
+same sentence elsewhere is how a fixed defect stays shipped. It was one grep.
+
+#### 2. Two cards contradicted each other on one fact
+
+- `objects/safe-harbor-consultation-lead-flow-vo2.md` stated a VAPI **"Create a Call"**
+  action places the outbound call, marked *settled: Sadie, August 19, 2026*.
+- `objects/maria.md` said the same step was **reported two ways** — a native VAPI action, or
+  a custom webhook to the VAPI API — and carried an open `VERIFY` on which.
+
+One card asserted as settled what the other flagged as unconfirmed. A reader opening Vo2
+alone would have taken it as fact, which is what `rules.md` §2 exists to prevent: *"a line
+that could not be confirmed and carries no VERIFY is fiction."*
+
+Vo2 now says a step places an outbound call through VAPI — which is settled — and carries
+the same `VERIFY` about **what kind of step**, in the same words as `maria.md`.
+
+**Cross-card contradictions are invisible to the reading rule.** One card at a time is what
+makes this folder safe, and it is also what let two cards disagree for four days.
+
+#### 3. `collisions.md` row 4 was in the wrong category
+
+Row 4 pairs `fit call booked` with `Appointment Booked` — **two different names**, both tags.
+It was listed under *"Same name, two objects"* alongside rows 3 and 12, which pair one name
+across a workflow and a tag.
+
+Row 4 is a different thing: the two collide because they are **related** — one is read where
+the other is written — not because they share a name. The section is now *"Same name, two
+objects — twice"*, and row 4 is named in it as explicitly not that pattern.
+
+#### 4. Card-less lanes read as dead ends
+
+Some lanes answer a reader outright and name no card — Lane F, Lane I, and the entries under
+**Named, and nothing flowing through**. Nothing said that was a completed walk, so a reader
+who landed on one had reason to think they had failed to find the card.
+
+One sentence added in both places the reading rule is stated — `catalog.md` and
+`map/README.md`: some lanes answer you and name no card, and that is a finished walk, not a
+dead end.
+
+#### What this round says about the testing
+
+Test A was an accuracy check by an insider. Test B and Test C were stranger runs, and both
+stopped early — one at the door, one at a file that would not render. **None of them would
+have caught any of these four.** Two require reading two cards side by side, which the folder
+forbids. One is a categorisation error inside an off-path reference page. One is an absence.
+
+An outside reader found in a single pass what three runs did not. That is worth recording
+next to the runs rather than underneath them.
+
+`TEST_METHOD.md` is not edited. `identity.md` and `rules.md` are not edited.
+

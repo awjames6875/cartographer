@@ -88,9 +88,11 @@ The long-prefix pairs — 1, 2, 6, 7, 10, 13 — are caught by reading a list ca
 
 ---
 
-## Same name, two objects — three times now
+## Same name, two objects — twice
 
-**A name on this map does not reliably belong to one object.** Rows 3, 4 and 12 are the same pattern. The walk found the third instance on August 19 (`/receipts/`, C-4).
+**A name on this map does not reliably belong to one object.** Rows 3 and 12 are the same pattern: one name, two kinds of object, two screens — and in both, the workflow is what writes the tag. The walk found the second instance on August 19 (`/receipts/`, C-4).
+
+**Row 4 is not that pattern, and used to be listed as though it were.** `fit call booked` and `Appointment Booked` are two *different* names. They collide because they are related — one is read where the other is written — not because they share a name. Related, not the same name.
 
 Confirm **which kind of object** you have open, not just which name.
 

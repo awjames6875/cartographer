@@ -2,7 +2,7 @@
 **The front door — Safe Harbor's GoHighLevel sub-account**
 Drawn: August 18, 2026 · Corrected against the account: August 21, 2026 · Companion to `identity.md` and `rules.md`
 
-Read `identity.md` and `rules.md` first if you have not.
+`identity.md` and `rules.md` are background — what this map refuses to do, and what the marks mean. Read them if you want. They are not a step, and you do not need them to start.
 
 ---
 
@@ -15,6 +15,8 @@ You arrived holding a sentence. Somebody said a version of *"change the timing o
 3. Stop. Answer from that card, then open the real object in the account and look at it.
 
 That is the whole path: **this page → one card → stop.** The rest of `objects/` stays closed (`rules.md` §5).
+
+**Some lanes answer you here and name no card. That is a finished walk, not a dead end** — it means what you were sent for is a thing nobody needs to open a card to hand you, or a thing nothing is flowing through. Read the lane, then go to the account.
 
 If no sentence below matches yours, read **What has not been walked** at the bottom before you conclude the thing does not exist.
 

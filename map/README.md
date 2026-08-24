@@ -17,6 +17,8 @@ by mistake.
 
 That is the whole path. Two files, then the account.
 
+**Some lanes in the catalog answer you outright and name no card. That is a finished walk, not a dead end.**
+
 **Don't read the other cards.** Reading all of them makes every name feel equally close,
 and that is how somebody changes the thing next to the one they meant.
 
