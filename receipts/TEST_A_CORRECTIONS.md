@@ -912,3 +912,22 @@ next to the runs rather than underneath them.
 
 `TEST_METHOD.md` is not edited. `identity.md` and `rules.md` are not edited.
 
+---
+
+### 2026-08-23 — Archive rebuilt after the external-review fixes
+
+The archive built at `01:28:50` (SHA `f2326c76…`) is **superseded**. It predates the four
+external-review fixes and must not be used for any run.
+
+```
+SHA-256  ee259c46a1f5cee75cef7dac1e810ff7d195fcabb419c2268a46f22d0a3fd0ee
+file     cartographer-map-for-nicole.zip
+size     37,800 bytes
+built    2026-08-23 21:00:35
+```
+
+Built from a working tree verified clean against `HEAD` immediately beforehand. 14 files,
+zero backslash paths, no `receipts/`, no `TEST_METHOD.md`, no root `README.md`.
+
+**Any run from here logs this hash, or the run cannot say what it read.**
+
