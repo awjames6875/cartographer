@@ -65,4 +65,4 @@ The brackets are the only difference.
 - **`SH - Assessment Booking Nurture`** — a different campaign. Shares `SH - ` and the word `Nurture`. Published, no card · settled: Sadie, August 19, 2026
 - **`Paperwork Reminder Nurture`** — a different campaign. Shares only the word `Nurture`. Published, no card · settled: Sadie, August 19, 2026
 
-`VERIFY — which of these gets grabbed in place of this workflow · settles by: Test B — the run itself, and which name Nicole opens first`
+`VERIFY — which of these gets grabbed in place of this workflow · settles by: Test B — the run itself, and which name Tiffany opens first`

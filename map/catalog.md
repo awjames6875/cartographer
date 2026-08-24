@@ -100,7 +100,7 @@ The brackets are the only difference.
 
 The two campaigns came from Sadie's walk (`/receipts/`, C-7). The Trigger came from the August 21 captures. All three are in **Found and published, not walked**, below.
 
-`VERIFY — which of these gets grabbed in place of the nurture · settles by: Test B — the run itself, and which name Nicole opens first`
+`VERIFY — which of these gets grabbed in place of the nurture · settles by: Test B — the run itself, and which name Tiffany opens first`
 
 ---
 

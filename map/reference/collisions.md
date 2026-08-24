@@ -69,7 +69,7 @@ The shorter, more natural search returns the bigger pile. The two campaigns in i
 
 **Row 13 is the one no search narrows.** Every other pair here is separated by typing more characters. These two are not — `SH - Fit Call Nurture ` returns both, and what tells them apart is what sits inside the bracket at the end of the name. Confirming the name at the top of the screen means reading it to the end.
 
-`VERIFY — which of these gets grabbed in place of the Lane B nurture · settles by: Test B — the run itself, and which name Nicole opens first`
+`VERIFY — which of these gets grabbed in place of the Lane B nurture · settles by: Test B — the run itself, and which name Tiffany opens first`
 
 ---
 

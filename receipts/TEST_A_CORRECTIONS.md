@@ -208,7 +208,7 @@ first wrote the trap down.
 **Why it happened:** Adam read Lane B of `catalog.md` and the `SH - Fit Call Nurture (Alt Days)`
 card as a stranger would, and could not follow the **Does not hit** section on first read. The
 author of a map failing to parse his own warning section is a failure of the map, not of the
-reader. Nicole walks it next, cold, with no author's memory to fall back on.
+reader. Tiffany walks it next, cold, with no author's memory to fall back on.
 
 **Requested Aug 21, run Aug 22.** Dated the day the edits were made, not the day the problem was
 found.
@@ -257,7 +257,7 @@ version), `·` and `→` intact, UTF-8, no BOM, LF endings.
 
 `~$*` was added to `.gitignore` the same day. Word drops a `~$catalog.md` owner file beside any
 file it opens, and a Word that is killed rather than closed leaves it behind — inside the
-drop-in folder, where it would travel to Nicole with everything else.
+drop-in folder, where it would travel to Tiffany with everything else.
 
 ---
 
@@ -271,7 +271,7 @@ file stands exactly as written, and its Test B task stands with it.
 **Why a second task.** The frozen Test B task is the Fit Call nurture task. That task is
 now worked end to end in `README.md` at the repository root — all four parts of the bar,
 including the object, what moves with it, and the wrong-neighbour grab. That README sits
-**outside** the drop-in folder, so the frozen task survives as long as Nicole receives the
+**outside** the drop-in folder, so the frozen task survives as long as Tiffany receives the
 zipped `map/` folder and never the repository or the GitHub link. This second task removes
 the dependency on that being handled correctly by whoever sends the folder.
 
@@ -304,7 +304,7 @@ what this run measures.
 **A known limit of this run: the folder primes her for the shape.** `map/examples.md`
 Example 1 teaches exactly this pattern — a reader sent looking for a message, the obvious
 lane empty, the message living on another object entirely. Different object, same shape.
-So this task does not measure whether Nicole derives that pattern cold. It measures whether
+So this task does not measure whether Tiffany derives that pattern cold. It measures whether
 she can apply a pattern the folder taught her to an object she has not seen worked. That is
 a weaker claim than the frozen nurture task makes, and it is the price of picking an object
 the folder has not already walked. Both facts are on the record; neither is withdrawn.
@@ -320,7 +320,7 @@ because it changed a finding.
 which writes **backslashes** as path separators inside the zip. The ZIP specification
 (APPNOTE 4.4.17.1) requires forward slashes. Windows readers tolerate the violation, so the
 archive verified as correct on the machine that made it. macOS does not: it read each stored
-path as a literal filename. Nicole opened it and got **14 flat files** called
+path as a literal filename. Tiffany opened it and got **14 flat files** called
 `map\catalog.md`, `map\objects\maria.md` and so on, with no folder structure at all.
 
 **How it was caught.** By the tester, on her machine, after the archive had been sent.
@@ -341,7 +341,7 @@ scan of the archive for the sequence `map\`. Zero backslash paths. Seventeen ent
 14 files plus explicit directory records for `map/`, `map/objects/` and `map/reference/`.
 No `receipts/`, no `.git`, no `scratchpad/`, no root `README.md`, no `TEST_METHOD.md`.
 
-**What it cost the run, stated rather than waved off.** The flat listing showed Nicole all
+**What it cost the run, stated rather than waved off.** The flat listing showed Tiffany all
 fourteen filenames in one view, including `map\objects\sh-fit-call-attended.md` — the object
 her task points at. The folder is built so a reader never sees that inventory: `rules.md` §5
 refuses the whole `objects/` folder, and `map/README.md` says there is never a reason to
@@ -430,14 +430,14 @@ This is what that looks like when it is tested on a live entry rather than asser
 
 ---
 
-## TEST B — Nicole — August 22, 2026
+## TEST B — Tiffany — August 22, 2026
 
 # The door did not hand off. The map failed.
 
 **Logged before any edit to `README.md`.** No fix is in this commit. `TEST_METHOD.md` says a
 failed run ships anyway and the fix gets logged after; this is the run shipping first.
 
-**Tester:** Nicole. A genuine domain outsider — never inside Safe Harbor's GoHighLevel.
+**Tester:** Tiffany. A genuine domain outsider — never inside Safe Harbor's GoHighLevel.
 **Prior exposure:** logged in advance at `5b48f88`, before this transcript existed.
 **Duration:** about 20 minutes.
 
@@ -535,7 +535,7 @@ written up around it.
 **The defect that mattered most: the door gave two different first actions.** Line 11 said
 read `catalog.md` now. Lines 35–40 said `identity.md` → `rules.md` → `catalog.md` → card,
 and called the first two steps *"not optional."* A reader who takes the file seriously
-resolves that by reading further rather than by acting, which is exactly what Nicole did —
+resolves that by reading further rather than by acting, which is exactly what Tiffany did —
 three times through, by her own account, and she never left the file.
 
 **How it was resolved: `identity.md` and `rules.md` are background, not a prerequisite.**
@@ -548,7 +548,7 @@ first. The outlier was corrected to match the rest.
 **The reason behind "not optional" was real, and it was kept.** Without `rules.md` a reader
 could read `VERIFY` as *this is broken* rather than *nobody confirmed this*. Rather than
 require a whole file to learn one word, the door now defines `VERIFY` in one line — and
-defines `object` beside it, because asked what object she would be touching, Nicole answered
+defines `object` beside it, because asked what object she would be touching, Tiffany answered
 **"folder."** The word had never been defined before she met it.
 
 **The other four changes, each traceable to something she said or did:**
@@ -571,7 +571,7 @@ Her answer described a troubleshooting manual — *"tells you what to look at, h
 run, what to correct."* The old door did say so, in section six, headed *"What is not in
 here."* She read past it. It is now stated plainly, in the reader's own terms.
 
-**What this fix is not.** It is untested. Nicole's run cannot be re-run — she is no longer a
+**What this fix is not.** It is untested. Tiffany's run cannot be re-run — she is no longer a
 stranger to this folder. Test C is a fresh model against this same file, and it is the only
 remaining evidence about whether the door hands off. If it fails too, that ships as well.
 
@@ -594,11 +594,11 @@ Test C uses `TEST_METHOD.md`'s own Test B task, verbatim:
 > Then stop."
 
 That is what the frozen file says — *"Same verbatim task as Test B"* — and it is the task
-`TEST_METHOD.md` names for Test B, not the Attended task added on August 22 for Nicole.
+`TEST_METHOD.md` names for Test B, not the Attended task added on August 22 for Tiffany.
 
-**It is clean for a fresh model, and it was not clean for Nicole.** The root `README.md`
+**It is clean for a fresh model, and it was not clean for Tiffany.** The root `README.md`
 works this task end to end, all four parts. That file sits **outside** the drop-in folder,
-so a model receiving only `map/` never sees it. Nicole's run had a different problem —
+so a model receiving only `map/` never sees it. Tiffany's run had a different problem —
 prior exposure from the broken archive — which does not transfer to a session with zero
 memory.
 
@@ -1063,4 +1063,52 @@ not hand off under that much assistance is a worse door than one that fails a re
 silence. Recording the help makes the finding harder to dismiss, not easier.
 
 `TEST_METHOD.md` is not edited.
+
+---
+
+### 2026-08-24 — The Test B tester was misnamed in earlier receipts
+
+**The tester was Tiffany. Earlier entries called her Nicole.** The name was wrong from the
+start — it originates in `TEST_METHOD.md` on August 17, 2026, a week before it was caught, and
+propagated from there into every entry that referred to her.
+
+**Caught on August 24, 2026**, by Adam, on review. Not by any test run, and not by anything in
+the folder.
+
+**What is unaffected.** Every run, every finding, every quote and every verdict. The person who
+walked Test B is the same person; only the label was wrong. No result changes, none is
+withdrawn, and no dated finding is revised.
+
+#### Corrected — 19 occurrences across 6 files
+
+- `map/catalog.md`, `map/objects/sh-fit-call-nurture-alt-days.md`,
+  `map/reference/collisions.md` — one each, the same `VERIFY` line: *which name Tiffany opens
+  first*. These are inside the drop-in folder, so the archive changes and carries a new hash.
+- `receipts/TEST_A_CORRECTIONS.md` — 14 occurrences across the pre-run entries, the Test B
+  failure entry, and the repair entries.
+- `receipts/_Account Walk with Sadie.md` — one, a working heading in the Aug 19 walk record.
+- `tasks/todo.md` — one. Gitignored, so it does not appear in any commit.
+
+#### Deliberately not corrected
+
+**`TEST_METHOD.md:27` still reads "Nicole Myrick."** The file has been unedited since August
+17, before any run, and four entries in this log assert that. Editing it now to fix a name
+would trade the project's central claim — that the method predates the runs and was never
+touched — for a cosmetic correction. **The freeze is worth more than the name.** The frozen
+file names the tester wrongly, that is stated here, and anyone reading the method alongside
+this log has both facts.
+
+**Historical references to `cartographer-map-for-nicole.zip` are also preserved**, in every
+entry that names it. That archive existed under that filename, its SHA-256 was computed
+against that file, and the divergence entry of August 23 turns on byte counts recorded for it.
+Renaming it inside past entries would falsify an evidence chain to tidy a label. The old
+filename is a fact about a file, not a claim about a person.
+
+The distinction held throughout: the person's name is capitalised in every occurrence, the
+filename is lowercase in every occurrence. Only the capitalised form was replaced.
+
+#### The archive was renamed
+
+`cartographer-map-for-nicole.zip` is removed. The current archive is
+`cartographer-map-for-tiffany.zip`, rebuilt from `HEAD` and hashed in the entry below.
 
