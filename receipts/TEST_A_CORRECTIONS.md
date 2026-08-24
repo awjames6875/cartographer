@@ -1295,3 +1295,78 @@ same condition 1, and no combined claim about "the stranger runs" should be buil
 
 **Logged, whatever happens.** A pass and a failure both ship. Test B failed and shipped; so
 does this.
+
+---
+
+### 2026-08-24 — The frozen Test C task was pasted into the builder's session, and was not answered
+
+**No run occurred. No output was produced. Nothing in this entry is a result.**
+
+Between the run 2 pre-run entry being pushed and the project being opened, the frozen Test C
+task — the setup line and the nurture task, exactly as quoted above — was pasted into the
+**builder's own working session**: the assistant session that had been editing this repository
+all day. It was declined.
+
+**Why it could not have been answered.** Two disqualifiers, either one sufficient on its own.
+
+**1. Contamination, and not the arguable kind.** That session had already read, in the same
+conversation: `receipts/TEST_C_TRANSCRIPT.md`, which carries run 1's **complete answer to this
+exact task** — the lane, the card, all four *what else moves* rows, and the wrong neighbour by
+name; `map/catalog.md`, including the Lane B block; the card itself;
+`map/reference/collisions.md`; `TEST_METHOD.md`, including the bar; and roughly 1,300 lines of
+this log. The run 2 pre-run entry names the reader as *"a fresh Claude project with no memory
+of Safe Harbor. Not the assistant that wrote this map."* This was that assistant, holding the
+answer key.
+
+**2. The wrong artifact.** That session reads the repository working tree, not
+`cartographer-map-for-tiffany.zip`. A run against the working tree cannot state what it read
+— the precise defect that made run 1 unprovable, and the reason the August 23 hash rule
+exists. Even from an uncontaminated reader, a working-tree run would not have been a Test C
+run.
+
+**What was done instead.** The task was declined, both disqualifiers were named, and the
+question was returned to where it belongs: the new Claude Project, reading the hashed archive.
+No partial answer, no demonstration, and no *"here is roughly what a reader would say."*
+
+**Why this is logged rather than dropped.** Nothing was corrupted, so there is nothing to
+withdraw — which is why it is worth a page rather than a shrug. **The contamination boundary
+in this project has until now been an assertion. This is the first occasion it was tested, and
+what it cost to hold was one refusal.** A log that recorded only the runs would not show that
+the line held at the one moment a free pass was available.
+
+**What this is not evidence of.** It says nothing about the map, the door, the catalog, or any
+reader. It is a record about the method, not about the artifact.
+
+---
+
+### 2026-08-24 — Lane B route check — file integrity, not a reader test
+
+**This is a file check.** It is not a test run, it is not evidence about any reader, and it
+closes no condition on the Test C bar. It establishes one thing: that the route Lane B
+describes resolves inside the files. Whether a reader arrives at it, whether `catalog.md`
+loads at all, and whether anybody follows it are the open questions run 2 exists to answer,
+and this check does not touch them.
+
+Run against the working tree at `1c87ec1`, whose `map/` is byte-identical to the `map/` inside
+`cartographer-map-for-tiffany.zip` (SHA `f86678b8…`): every commit since the archive was built
+touched `receipts/TEST_A_CORRECTIONS.md` only, and `git diff HEAD -- map/` is empty. So the
+check applies to the archive the run will read, not merely to a working copy.
+
+| Check | Result |
+|---|---|
+| Lane B exists in `catalog.md` | **Yes** — line 70, `### Lane B — they have not booked yet` |
+| Lane B names exactly one card | **Yes** — one `**Card:**` line, and exactly one `objects/*.md` path in the entire lane block |
+| That file exists | **Yes** — `map/objects/sh-fit-call-nurture-alt-days.md`, 4,723 bytes |
+| The card's back-reference matches | **Yes** — *"Came here from Lane B of `catalog.md`."* |
+
+Three further cross-checks match between the lane and the card. None was asked for, and each
+would have broken the route quietly had it disagreed: the object name
+`SH - Fit Call Nurture (Alt Days)`, the `Where:` path
+`Automation → Workflows → "SH - Fit Call Nurture (Alt Days)"`, and the mark — `LIVE`, settled
+by the August 21 captures.
+
+**What else the lane block holds:** five named lookalikes and two *don't-search* warnings.
+None is formatted as a card reference, so a reader following `**Card:**` has one destination
+and no ambiguity about which of the six names it is.
+
+**Nothing was changed.** This entry records a check, not a repair.
