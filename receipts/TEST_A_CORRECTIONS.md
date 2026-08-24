@@ -946,6 +946,23 @@ privacy. **No part of the walk itself was cut.** Transcription artifacts are lef
 including the auto-transcriber's occasional substitution of non-English words. The
 transcript's own header states this.
 
+### Consent
+
+**Tiffany consented, before the run, to her words and her first name being published on a
+public page for the judges.** She was told what the recording was for and what would be done
+with it, and she agreed on that basis. The consent predates the walk; nothing was published
+retroactively on an assumption.
+
+**What is published:** her first name, and her words from the walk.
+
+**What is not:** her surname appears nowhere in this repository. The full name in
+`TEST_METHOD.md` — "Nicole Myrick" — belongs to the misnaming corrected on August 24 and is
+not hers. The off-topic personal conversation before and after the task was cut for her
+privacy, and the untrimmed recording is not published.
+
+**The consent covers publication, not the findings.** She agreed to be quoted. She was not
+asked to endorse any conclusion drawn from the run, and none is attributed to her.
+
 ### Finding 1 — the tester could not open `.md` files at all
 
 **Option 1: no default application for `.md` on the tester's Mac.**
